@@ -1,0 +1,15 @@
+## Pre-Incident Readiness
+- Document and approve an incident response policy
+- Define the incident response plan and procedures
+- Define team roles and responsibilities (who does what)
+- Set up an on-call rotation with primary and backup coverage
+- Define backup coverage for absences and handoffs
+- Agree on severity level definitions (P1 - P5)
+- Agree on incident type categories (outage / degradation / security / data)
+- Prepare communication templates for internal and customer-facing updates
+- Define escalation paths for each severity level
+- Set SLA targets and response deadlines per severity
+- Configure tools: JSM, Statuspage, incident channels, monitoring alerts
+- Create and maintain a risk register and known-issues log
+- Schedule regular incident response drills and training
+- Create and maintain disaster recovery plans for key scenarios

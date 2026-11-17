@@ -1,0 +1,2503 @@
+{
+  "schema_version": 1,
+  "format": "smart-checklist-cloud-markdown",
+  "reviewed_on": "2026-11-16",
+  "repository_url": "https://github.com/maryomely/jira-checklist-templates",
+  "templates": [
+    {
+      "id": "T001",
+      "title": "Annual marketing budget planning and approval",
+      "team": "Finance",
+      "summary": "Plan annual marketing spend from actuals through allocation, approval, and finance handover.",
+      "tags": [
+        "annual",
+        "approval",
+        "budget",
+        "marketing",
+        "payments",
+        "planning",
+        "spending"
+      ],
+      "kind": "workflow",
+      "path": "templates/finance/t001-annual-marketing-budget-planning-and-approval.md",
+      "source_urls": [
+        "https://titanapps.io/blog/jira-budget-tracking"
+      ],
+      "notes": [],
+      "placeholders": [
+        "calendar_year"
+      ],
+      "item_count": 15,
+      "sha256": "0e16896175fb8b7b65410f13557f2fca29a2b4d21f8e7678cc8a02a059091506"
+    },
+    {
+      "id": "T002",
+      "title": "Budget retrospective",
+      "team": "Finance",
+      "summary": "Review budget outcomes and turn spending lessons into the next planning cycle.",
+      "tags": [
+        "budget",
+        "payments",
+        "retrospective",
+        "spending"
+      ],
+      "kind": "workflow",
+      "path": "templates/finance/t002-budget-retrospective.md",
+      "source_urls": [
+        "https://titanapps.io/blog/jira-budget-tracking"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 11,
+      "sha256": "4ba7cab6740b06a459e7705faffa732e7e319ba567787f8704a11af090aee9df"
+    },
+    {
+      "id": "T003",
+      "title": "Business travel preparation",
+      "team": "Finance",
+      "summary": "Confirm trip details and budget, arrange bookings, and complete post-travel expenses and reporting.",
+      "tags": [
+        "budget",
+        "business",
+        "coordination",
+        "payments",
+        "planning",
+        "spending",
+        "travel"
+      ],
+      "kind": "workflow",
+      "path": "templates/finance/t003-business-travel-planning-and-coordination.md",
+      "source_urls": [
+        "https://titanapps.io/blog/business-travel-template",
+        "https://titanapps.io/blog/free-processes-template-library",
+        "https://titanapps.io/blog/optimize-business-travel-management-smart-checklist"
+      ],
+      "notes": [
+        "Replaced with the user-supplied version on 16 November 2026; source URLs retain historical blog provenance.",
+        "Role mentions in this checklist are illustrative custom labels. Adapt them to the team; use confirmed Jira user IDs when user mentions or dedicated assignees are needed."
+      ],
+      "placeholders": [
+        "travel_policy_url"
+      ],
+      "item_count": 13,
+      "sha256": "034e34f627f35d9021a1545910addea29a1b68a31e7ddcafdeaed8702181a88d",
+      "contribution": {
+        "type": "replacement",
+        "contributor": "maryomely",
+        "date": "2026-11-16",
+        "description": "User-supplied checklist, normalized for repository formatting and reusable placeholders."
+      }
+    },
+    {
+      "id": "T004",
+      "title": "Invoice approval",
+      "team": "Finance",
+      "summary": "Check invoice accuracy, duplicates, tax information, approvals, and payment readiness.",
+      "tags": [
+        "approval",
+        "budget",
+        "invoice",
+        "payments",
+        "spending"
+      ],
+      "kind": "workflow",
+      "path": "templates/finance/t004-invoice-approval.md",
+      "source_urls": [
+        "https://titanapps.io/blog/invoice-approval-process"
+      ],
+      "notes": [
+        "Replace _user_id placeholders with confirmed Jira user IDs; user mentions retain @ and are separate from dedicated assignees. The payments_team_mention placeholder is a custom team label, not a Jira user account."
+      ],
+      "placeholders": [
+        "approver_user_id",
+        "chart_of_accounts_url",
+        "financial_analyst_user_id",
+        "invoice_number",
+        "payment_structure_url",
+        "payments_team_mention",
+        "project_key",
+        "tax_form_guide_url",
+        "tax_form_template_url",
+        "top_up_guide_url"
+      ],
+      "item_count": 16,
+      "sha256": "ba8905c8381c1eec79a627bf0b4609f2293c3b12eabaf44e15b79270ef2f6d2d"
+    },
+    {
+      "id": "T005",
+      "title": "Monthly budget check",
+      "team": "Finance",
+      "summary": "Compare monthly spending with the budget and decide corrective actions.",
+      "tags": [
+        "budget",
+        "check",
+        "monthly",
+        "payments",
+        "spending"
+      ],
+      "kind": "workflow",
+      "path": "templates/finance/t005-monthly-budget-check.md",
+      "source_urls": [
+        "https://titanapps.io/blog/jira-budget-tracking"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 5,
+      "sha256": "4f3e7153e6161979e1691984521cf6d4603ccb49deee5347f91965e701aae1ac"
+    },
+    {
+      "id": "T006",
+      "title": "Payroll processing",
+      "team": "Finance",
+      "summary": "Validate payroll inputs, calculate compensation, obtain approval, and reconcile payments.",
+      "tags": [
+        "budget",
+        "payments",
+        "payroll",
+        "processing",
+        "spending"
+      ],
+      "kind": "workflow",
+      "path": "templates/finance/t006-payroll-processing.md",
+      "source_urls": [
+        "https://titanapps.io/blog/jira-payroll-template"
+      ],
+      "notes": [
+        "Adapt the process to applicable policies and requirements; this example is not a compliance determination."
+      ],
+      "placeholders": [],
+      "item_count": 21,
+      "sha256": "1bddca41beedc3e45bbac4bd529e4c81c46608893bff15101ea4452987b6e1a1"
+    },
+    {
+      "id": "T007",
+      "title": "Employee evaluation",
+      "team": "HR and Recruiting",
+      "summary": "Assess role skills, productivity, and competencies with structured written feedback.",
+      "tags": [
+        "employee",
+        "evaluation",
+        "hiring",
+        "hr",
+        "people-operations"
+      ],
+      "kind": "workflow",
+      "path": "templates/hr-and-recruiting/t007-employee-evaluation.md",
+      "source_urls": [
+        "https://titanapps.io/blog/employee-evaluation-template"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 21,
+      "sha256": "8de960a5b8d8fdb9d4c13b9c8233754dbb31d1208e06011fe91e75a088c85a48"
+    },
+    {
+      "id": "T008",
+      "title": "Employee onboarding",
+      "team": "HR and Recruiting",
+      "summary": "Coordinate legal, finance, hardware, security, HR, and project onboarding, including 30-day goals.",
+      "tags": [
+        "employee",
+        "finance",
+        "first",
+        "hardware",
+        "hiring",
+        "hr",
+        "it",
+        "legal",
+        "month",
+        "onboarding",
+        "paperwork",
+        "people-operations",
+        "project",
+        "security",
+        "setup"
+      ],
+      "kind": "workflow",
+      "path": "templates/hr-and-recruiting/t008-employee-onboarding-through-the-first-month.md",
+      "source_urls": [
+        "https://titanapps.io/blog/difference-between-agile-and-scrum",
+        "https://titanapps.io/blog/employee-evaluation-template",
+        "https://titanapps.io/blog/employee-onboarding-template-for-jira",
+        "https://titanapps.io/blog/free-processes-template-library",
+        "https://titanapps.io/blog/jira-for-hr",
+        "https://titanapps.io/blog/software-developers-onboarding"
+      ],
+      "notes": [
+        "Replaced with the user-supplied version on 16 November 2026; source URLs retain historical blog provenance.",
+        "Role mentions in this checklist are illustrative custom labels. Adapt them to the team; use confirmed Jira user IDs when user mentions or dedicated assignees are needed.",
+        "Consolidates T010, T022; use the relevant sections of this checklist instead of the retired standalone templates."
+      ],
+      "placeholders": [
+        "employee_handbook_url",
+        "expense_policy_url",
+        "security_policy_url"
+      ],
+      "item_count": 35,
+      "sha256": "d36ab56c202d2117dbef04732397f7a50d5be3a828566c7dafaa19b39fd36958",
+      "superseded_ids": [
+        "T010",
+        "T022"
+      ],
+      "contribution": {
+        "type": "replacement",
+        "contributor": "maryomely",
+        "date": "2026-11-16",
+        "description": "User-supplied checklist, normalized for repository formatting and reusable placeholders."
+      }
+    },
+    {
+      "id": "T009",
+      "title": "New hire buddy support",
+      "team": "HR and Recruiting",
+      "summary": "Guide the buddy's introductions, onboarding support, and regular check-ins.",
+      "tags": [
+        "buddy",
+        "hire",
+        "hiring",
+        "hr",
+        "new",
+        "people-operations",
+        "support"
+      ],
+      "kind": "workflow",
+      "path": "templates/hr-and-recruiting/t009-new-hire-buddy-support.md",
+      "source_urls": [
+        "https://titanapps.io/blog/employee-onboarding-template-for-jira"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 4,
+      "sha256": "142a29ca9edf4c40a3b6f1e89202ed78661fbe99340c6abee3bd8f1d88cf3372"
+    },
+    {
+      "id": "T011",
+      "title": "Offboarding launch",
+      "team": "HR and Recruiting",
+      "summary": "Confirm the offboarding owner, departure timing, and initial employee information.",
+      "tags": [
+        "hiring",
+        "hr",
+        "launch",
+        "offboarding",
+        "people-operations"
+      ],
+      "kind": "workflow",
+      "path": "templates/hr-and-recruiting/t011-offboarding-launch.md",
+      "source_urls": [
+        "https://titanapps.io/blog/offboarding-template-in-jira"
+      ],
+      "notes": [],
+      "placeholders": [
+        "employee_name",
+        "job_title"
+      ],
+      "item_count": 6,
+      "sha256": "28dd4cb6f8e94ae30e80ce460f100646fd67b86eb3c46b0dae5eaf8750debf11"
+    },
+    {
+      "id": "T012",
+      "title": "Performance review cycle",
+      "team": "HR and Recruiting",
+      "summary": "Run a performance review cycle from setup through calibration, release, and discussion.",
+      "tags": [
+        "cycle",
+        "hiring",
+        "hr",
+        "people-operations",
+        "performance",
+        "review"
+      ],
+      "kind": "workflow",
+      "path": "templates/hr-and-recruiting/t012-performance-review-cycle.md",
+      "source_urls": [
+        "https://titanapps.io/blog/performance-review-template"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 56,
+      "sha256": "0198b0e728d2a29a00d5740afceb1f9e1363d161ced3c736a2599e1e959edc55"
+    },
+    {
+      "id": "T013",
+      "title": "Recruitment planning and candidate screening",
+      "team": "HR and Recruiting",
+      "summary": "Plan recruitment, define a role, coordinate hiring stages, and screen candidates.",
+      "tags": [
+        "candidate",
+        "hiring",
+        "hr",
+        "people-operations",
+        "planning",
+        "recruitment",
+        "screening"
+      ],
+      "kind": "workflow",
+      "path": "templates/hr-and-recruiting/t013-recruitment-planning-and-candidate-screening.md",
+      "source_urls": [
+        "https://titanapps.io/blog/employee-evaluation-template",
+        "https://titanapps.io/blog/epic-vs-story-vs-task",
+        "https://titanapps.io/blog/free-processes-template-library",
+        "https://titanapps.io/blog/jira-okrs",
+        "https://titanapps.io/blog/jira-position-opening-template",
+        "https://titanapps.io/blog/recruiting-plan-template"
+      ],
+      "notes": [],
+      "placeholders": [
+        "hiring_channel"
+      ],
+      "item_count": 46,
+      "sha256": "2e4bfd7917a5f639201312a93aaa28bf15631eae55d290cf1272751516bb487e"
+    },
+    {
+      "id": "T014",
+      "title": "Code formatting and review",
+      "team": "IT and Engineering",
+      "summary": "Review code structure, conventions, maintainability, security, and performance.",
+      "tags": [
+        "code",
+        "development",
+        "engineering",
+        "formatting",
+        "review",
+        "software"
+      ],
+      "kind": "workflow",
+      "path": "templates/it-and-engineering/t014-code-formatting-and-review.md",
+      "source_urls": [
+        "https://titanapps.io/blog/ai-native-sdlc",
+        "https://titanapps.io/blog/claude-ai-agent",
+        "https://titanapps.io/blog/free-processes-template-library",
+        "https://titanapps.io/blog/jira-code-review",
+        "https://titanapps.io/blog/jira-workflow"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 26,
+      "sha256": "7a9eff48bf792f52a17564c35a90033a088d558d55888c61ce76930c3f39a7a8"
+    },
+    {
+      "id": "T015",
+      "title": "Code review",
+      "team": "IT and Engineering",
+      "summary": "Review implementation, readability, maintainability, security, tests, documentation, and deployment risks.",
+      "tags": [
+        "code",
+        "development",
+        "engineering",
+        "review",
+        "software"
+      ],
+      "kind": "workflow",
+      "path": "templates/it-and-engineering/t015-code-review.md",
+      "source_urls": [
+        "https://titanapps.io/blog/agile-jira",
+        "https://titanapps.io/blog/git-and-jira-integration",
+        "https://titanapps.io/blog/jira-checkbox",
+        "https://titanapps.io/blog/jira-sprint-planning",
+        "https://titanapps.io/blog/project-planning-jira"
+      ],
+      "notes": [
+        "Replaced with the user-supplied version on 16 November 2026; source URLs retain historical blog provenance."
+      ],
+      "placeholders": [],
+      "item_count": 10,
+      "sha256": "d4f0b5465b002bcfa204cc230e62ce049998cba0a1974ca68a8f171a8b3bb603",
+      "contribution": {
+        "type": "replacement",
+        "contributor": "maryomely",
+        "date": "2026-11-16",
+        "description": "User-supplied checklist, normalized for repository formatting and reusable placeholders."
+      }
+    },
+    {
+      "id": "T016",
+      "title": "Dark mode implementation example",
+      "team": "IT and Engineering",
+      "summary": "Illustrate a feature delivery workflow using dark mode from design through monitoring.",
+      "tags": [
+        "dark",
+        "development",
+        "engineering",
+        "example",
+        "implementation",
+        "mode",
+        "software"
+      ],
+      "kind": "feature-example",
+      "path": "templates/it-and-engineering/t016-dark-mode-implementation-example.md",
+      "source_urls": [
+        "https://titanapps.io/blog/implementation-plan"
+      ],
+      "notes": [
+        "Dark mode is an example feature; adapt the implementation details to the actual product."
+      ],
+      "placeholders": [],
+      "item_count": 18,
+      "sha256": "f62f4bd1d5330eedf4f53473a4c2ca3eaed6c7d4221c82a54f28b0b079ddbf9a"
+    },
+    {
+      "id": "T017",
+      "title": "Definition of Done",
+      "team": "IT and Engineering",
+      "summary": "Verify implementation, test coverage, QA, review, feature flags, documentation, and final sign-off.",
+      "tags": [
+        "definition",
+        "development",
+        "done",
+        "engineering",
+        "software"
+      ],
+      "kind": "criteria",
+      "path": "templates/it-and-engineering/t017-definition-of-done.md",
+      "source_urls": [
+        "https://titanapps.io/blog/agile-checklist-tools",
+        "https://titanapps.io/blog/agile-jira",
+        "https://titanapps.io/blog/ai-native-sdlc",
+        "https://titanapps.io/blog/automate-jira-processes",
+        "https://titanapps.io/blog/capacity-planning-in-jira",
+        "https://titanapps.io/blog/definition-of-done-in-jira",
+        "https://titanapps.io/blog/difference-between-agile-and-scrum",
+        "https://titanapps.io/blog/epic-vs-story-vs-task",
+        "https://titanapps.io/blog/free-processes-template-library",
+        "https://titanapps.io/blog/how-to-use-epics-in-jira",
+        "https://titanapps.io/blog/how-to-view-previous-sprint-in-jira",
+        "https://titanapps.io/blog/jira-automation",
+        "https://titanapps.io/blog/jira-checkbox",
+        "https://titanapps.io/blog/jira-mcp-server",
+        "https://titanapps.io/blog/jira-resellers",
+        "https://titanapps.io/blog/jira-sprint-planning",
+        "https://titanapps.io/blog/jira-subtask-of-subtask",
+        "https://titanapps.io/blog/jira-ticket-creation-automation",
+        "https://titanapps.io/blog/project-planning-jira",
+        "https://titanapps.io/blog/project-tracking-in-jira",
+        "https://titanapps.io/blog/scaled-agile-framework",
+        "https://titanapps.io/blog/user-story-template-jira"
+      ],
+      "notes": [
+        "Replaced with the user-supplied version on 16 November 2026; source URLs retain historical blog provenance.",
+        "Role mentions in this checklist are illustrative custom labels. Adapt them to the team; use confirmed Jira user IDs when user mentions or dedicated assignees are needed.",
+        "The >80% coverage threshold, LaunchDarkly requirement, A-Team review, and role labels are supplied process choices, not universal requirements. Confirm them and replace the final sign-off date and document URLs before use."
+      ],
+      "placeholders": [
+        "bug_tracker_url",
+        "feature_flag_docs_url",
+        "final_sign_off_date",
+        "testing_guidelines_url"
+      ],
+      "item_count": 10,
+      "sha256": "abb70ccdeeb7a35cb95e3716bb24a5ff8dcbc765c163a4ed33c53401b835aa4b",
+      "contribution": {
+        "type": "replacement",
+        "contributor": "maryomely",
+        "date": "2026-11-16",
+        "description": "User-supplied checklist, normalized for repository formatting and reusable placeholders."
+      }
+    },
+    {
+      "id": "T018",
+      "title": "Developer technical onboarding through the first month",
+      "team": "IT and Engineering",
+      "summary": "Guide a developer's technical setup, working agreements, first week, and first month.",
+      "tags": [
+        "developer",
+        "development",
+        "engineering",
+        "first",
+        "month",
+        "onboarding",
+        "software",
+        "technical"
+      ],
+      "kind": "workflow",
+      "path": "templates/it-and-engineering/t018-developer-technical-onboarding-through-the-first-month.md",
+      "source_urls": [
+        "https://titanapps.io/blog/employee-onboarding-template-for-jira",
+        "https://titanapps.io/blog/software-developers-onboarding"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 25,
+      "sha256": "1ba8f9efe973ff825febb527a6ab812af8af725d41986f723f272a74946d18d6"
+    },
+    {
+      "id": "T019",
+      "title": "Feature deployment and monitoring",
+      "team": "IT and Engineering",
+      "summary": "Check production readiness, deploy a feature, and monitor the live result.",
+      "tags": [
+        "deployment",
+        "development",
+        "engineering",
+        "feature",
+        "monitoring",
+        "software"
+      ],
+      "kind": "workflow",
+      "path": "templates/it-and-engineering/t019-feature-deployment-and-monitoring.md",
+      "source_urls": [
+        "https://titanapps.io/blog/jira-feature-release-template-for-delivery-managers"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 6,
+      "sha256": "0f810b51d8f0e0ed7544c01fcb54069fa0aef8b8f02d70029bf8b1c36d9c72ed"
+    },
+    {
+      "id": "T020",
+      "title": "Feature technical implementation",
+      "team": "IT and Engineering",
+      "summary": "Translate a feature specification into technical tasks, APIs, data changes, and owners.",
+      "tags": [
+        "development",
+        "engineering",
+        "feature",
+        "implementation",
+        "software",
+        "technical"
+      ],
+      "kind": "workflow",
+      "path": "templates/it-and-engineering/t020-feature-technical-implementation.md",
+      "source_urls": [
+        "https://titanapps.io/blog/jira-feature-release-template-for-delivery-managers"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 6,
+      "sha256": "79cb8c008d72d90d4499441fa01ea2c4444a9f2ecf93869144b34de89317e0fb"
+    },
+    {
+      "id": "T021",
+      "title": "Jira Server to Cloud premigration",
+      "team": "IT and Engineering",
+      "summary": "Review legacy Jira Server-to-Cloud migration prerequisites and preparation steps.",
+      "tags": [
+        "cloud",
+        "development",
+        "engineering",
+        "jira",
+        "premigration",
+        "server",
+        "software"
+      ],
+      "kind": "historical-migration-example",
+      "path": "templates/it-and-engineering/t021-jira-server-to-cloud-premigration.md",
+      "source_urls": [
+        "https://titanapps.io/blog/migrating-server-to-cloud"
+      ],
+      "notes": [
+        "Historical Server-to-Cloud material. Verify current migration guidance before use; #must labels are plain text and do not mark mandatory items."
+      ],
+      "placeholders": [],
+      "item_count": 33,
+      "sha256": "93de45598758f010abba2c24819bbd080f478bf9961a174015e1a7fe7e4bdf8b"
+    },
+    {
+      "id": "T023",
+      "title": "Release deployment workflow",
+      "team": "IT and Engineering",
+      "summary": "Coordinate staging, regression testing, production deployment, and post-release actions.",
+      "tags": [
+        "deployment",
+        "development",
+        "engineering",
+        "release",
+        "software",
+        "workflow"
+      ],
+      "kind": "workflow",
+      "path": "templates/it-and-engineering/t023-release-deployment-workflow.md",
+      "source_urls": [
+        "https://titanapps.io/blog/jira-versions",
+        "https://titanapps.io/blog/release-process-with-smart-checklist",
+        "https://titanapps.io/blog/release-readiness-checklist"
+      ],
+      "notes": [
+        "Replace _user_id placeholders with confirmed Jira user IDs; user mentions retain @ and are separate from dedicated assignees."
+      ],
+      "placeholders": [
+        "developer_user_id",
+        "development_branch",
+        "qa_owner_user_id"
+      ],
+      "item_count": 33,
+      "sha256": "8dc3a96eca9245fb264f084a4556e3032cb2eb3b1fc54cebe1a30aafc3c52c58"
+    },
+    {
+      "id": "T024",
+      "title": "Release readiness and approval",
+      "team": "IT and Engineering",
+      "summary": "Check code quality, QA sign-off, deployment preparation, production approval, and post-deployment smoke tests.",
+      "tags": [
+        "approval",
+        "development",
+        "engineering",
+        "readiness",
+        "release",
+        "software"
+      ],
+      "kind": "workflow",
+      "path": "templates/it-and-engineering/t024-release-readiness-and-approval.md",
+      "source_urls": [
+        "https://titanapps.io/blog/jira-sprint-planning",
+        "https://titanapps.io/blog/pre-production-checklist",
+        "https://titanapps.io/blog/qa-checklist",
+        "https://titanapps.io/blog/release-readiness-checklist"
+      ],
+      "notes": [
+        "Replaced with the user-supplied version on 16 November 2026; source URLs retain historical blog provenance.",
+        "Role mentions in this checklist are illustrative custom labels. Adapt them to the team; use confirmed Jira user IDs when user mentions or dedicated assignees are needed."
+      ],
+      "placeholders": [
+        "release_guide_url",
+        "test_report_url"
+      ],
+      "item_count": 19,
+      "sha256": "8d1ce9de132a67f2f594ec8da503e6862ece2cdb966918f958a92a48ac2ba085",
+      "contribution": {
+        "type": "replacement",
+        "contributor": "maryomely",
+        "date": "2026-11-16",
+        "description": "User-supplied checklist, normalized for repository formatting and reusable placeholders."
+      }
+    },
+    {
+      "id": "T025",
+      "title": "Software licensing management",
+      "team": "IT and Engineering",
+      "summary": "Inventory software, assign owners, manage access, and review license renewals and usage.",
+      "tags": [
+        "development",
+        "engineering",
+        "licensing",
+        "management",
+        "software"
+      ],
+      "kind": "workflow",
+      "path": "templates/it-and-engineering/t025-software-licensing-management.md",
+      "source_urls": [
+        "https://titanapps.io/blog/software-licensing-management"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 19,
+      "sha256": "bfb2f640c8226abcd8ba3af1bf6d24c35c4b86ae7a862995e6161f21c09ea744"
+    },
+    {
+      "id": "T082",
+      "title": "Get Started with Smart Checklist",
+      "team": "IT and Engineering",
+      "summary": "Learn Smart Checklist editing, formatting, templates, automation, configuration, and support.",
+      "tags": [
+        "app",
+        "automation",
+        "formatting",
+        "get-started",
+        "setup",
+        "smart-checklist",
+        "templates",
+        "tutorial"
+      ],
+      "kind": "tutorial",
+      "path": "templates/it-and-engineering/t082-get-started-with-smart-checklist.md",
+      "source_urls": [],
+      "notes": [
+        "Original user contribution supplied on 16 November 2026.",
+        "Role mentions in this checklist are illustrative custom labels. Adapt them to the team; use confirmed Jira user IDs when user mentions or dedicated assignees are needed.",
+        "Replace the due-date and assignee placeholders before use. Configuration features depend on the installed edition and permissions; the Markdown does not configure them automatically."
+      ],
+      "contribution": {
+        "type": "original",
+        "contributor": "maryomely",
+        "date": "2026-11-16",
+        "description": "User-supplied checklist, normalized for repository formatting and reusable placeholders."
+      },
+      "placeholders": [
+        "assignee_user_id",
+        "due_date"
+      ],
+      "item_count": 17,
+      "sha256": "32b59496fedcf5a0a9efdf616d6ce2a1ce38c57cc11ef3b60d8486559ec99333"
+    },
+    {
+      "id": "T026",
+      "title": "GDPR compliance and data deletion",
+      "team": "Information Security",
+      "summary": "Organize privacy-control reviews, personal-data handling, and data-subject request processes.",
+      "tags": [
+        "audit",
+        "compliance",
+        "controls",
+        "data",
+        "deletion",
+        "gdpr",
+        "security"
+      ],
+      "kind": "workflow",
+      "path": "templates/information-security/t026-gdpr-compliance-and-data-deletion.md",
+      "source_urls": [
+        "https://titanapps.io/blog/gdpr-data-deletion-request-template"
+      ],
+      "notes": [
+        "Adapt the process to applicable policies and requirements; this example is not a compliance determination."
+      ],
+      "placeholders": [],
+      "item_count": 30,
+      "sha256": "3e69151d5bc443d0b57fa9bfc2837ebcfb162e15397ae4e081643334f5fd29c9"
+    },
+    {
+      "id": "T027",
+      "title": "Incident readiness",
+      "team": "Information Security",
+      "summary": "Prepare incident policies, roles, escalation paths, communications, and response exercises.",
+      "tags": [
+        "audit",
+        "controls",
+        "incident",
+        "readiness",
+        "security"
+      ],
+      "kind": "workflow",
+      "path": "templates/information-security/t027-incident-readiness.md",
+      "source_urls": [
+        "https://titanapps.io/blog/incident-management-template"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 14,
+      "sha256": "baef941d596d3423a489e869d1bedabe46fa5702baf5e7b70677e254a0e15f19"
+    },
+    {
+      "id": "T028",
+      "title": "Incident management",
+      "team": "Information Security",
+      "summary": "Acknowledge and assess an incident, apply mitigation, verify recovery, notify affected users, and prepare closure.",
+      "tags": [
+        "audit",
+        "closure",
+        "controls",
+        "incident",
+        "management",
+        "mitigation",
+        "outage",
+        "recovery",
+        "response",
+        "security",
+        "service",
+        "severity"
+      ],
+      "kind": "workflow",
+      "path": "templates/information-security/t028-incident-response.md",
+      "source_urls": [
+        "https://titanapps.io/blog/incident-management-template"
+      ],
+      "notes": [
+        "Replaced with the user-supplied screenshot version on 16 November 2026; source URLs retain historical blog provenance.",
+        "The six red asterisks in the screenshot are represented by mandatory -! markers. The green check emoji is item text, not evidence of a completed item.",
+        "Role mentions @Incident_Manager and @Support_Team are illustrative custom labels, not verified Jira account IDs or dedicated assignees; adapt them to the team.",
+        "Replace incident_log_url with the real incident log URL. The screenshot does not expose the link destination or the collapsed restoration details; no hidden detail text has been invented. The DETAILS control and UPDATED text are omitted from the checklist payload.",
+        "SEV-1 / SEV-2 / SEV-3 are the supplied severity labels; align them with the team’s incident policy. For mandatory mitigation when no workaround is available, follow the team’s approved not-applicable handling rather than recording an unapplied mitigation as complete."
+      ],
+      "placeholders": [
+        "incident_log_url"
+      ],
+      "item_count": 10,
+      "sha256": "30d5e2bfaf910df1505bbb1f82fc7fe550cc7a4428091cc511b8e09695f9f3b2",
+      "contribution": {
+        "type": "replacement",
+        "contributor": "maryomely",
+        "date": "2026-11-16",
+        "description": "User-supplied Incident Management screenshot transcribed into Smart Checklist Markdown."
+      }
+    },
+    {
+      "id": "T029",
+      "title": "Internal control policy verification",
+      "team": "Information Security",
+      "summary": "Verify control policies against current responsibilities, execution, evidence, and exceptions.",
+      "tags": [
+        "audit",
+        "control",
+        "controls",
+        "internal",
+        "policy",
+        "security",
+        "verification"
+      ],
+      "kind": "workflow",
+      "path": "templates/information-security/t029-internal-control-policy-verification.md",
+      "source_urls": [
+        "https://titanapps.io/blog/internal-control-policy-template"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 32,
+      "sha256": "68e8b818ba606a9b5240397b7490891fbd850f8a432e06de814ec0319ff03a3c"
+    },
+    {
+      "id": "T030",
+      "title": "ISO 27001 internal audit",
+      "team": "Information Security",
+      "summary": "Structure an internal ISMS audit across planning, controls, evidence, findings, and follow-up.",
+      "tags": [
+        "27001",
+        "audit",
+        "controls",
+        "internal",
+        "iso",
+        "security"
+      ],
+      "kind": "workflow",
+      "path": "templates/information-security/t030-iso-27001-internal-audit.md",
+      "source_urls": [
+        "https://titanapps.io/blog/internal-security-audit-template",
+        "https://titanapps.io/blog/jira-audit-logs"
+      ],
+      "notes": [
+        "Adapt the process to applicable policies and requirements; this example is not a compliance determination."
+      ],
+      "placeholders": [],
+      "item_count": 55,
+      "sha256": "8aa0f0566a927e0c9c6d81779918a66c18f94e0f500216d583733937b8f33441"
+    },
+    {
+      "id": "T031",
+      "title": "Policy update and sign-off",
+      "team": "Information Security",
+      "summary": "Draft, approve, publish, and follow up on an internal policy change.",
+      "tags": [
+        "audit",
+        "controls",
+        "off",
+        "policy",
+        "security",
+        "sign",
+        "update"
+      ],
+      "kind": "workflow",
+      "path": "templates/information-security/t031-policy-update-sign-off.md",
+      "source_urls": [
+        "https://titanapps.io/blog/jira-change-management-policy-update-sign-off-template"
+      ],
+      "notes": [
+        "Replace _user_id placeholders with confirmed Jira user IDs; user mentions retain @ and are separate from dedicated assignees."
+      ],
+      "placeholders": [
+        "approver_user_id",
+        "audit_notes_url",
+        "current_policy_url",
+        "customer_feedback_url",
+        "draft_policy_url",
+        "final_policy_url",
+        "incident_url",
+        "legal_approver_user_id",
+        "operations_approver_user_id",
+        "product_approver_user_id",
+        "security_approver_user_id"
+      ],
+      "item_count": 25,
+      "sha256": "ae193950c4e1f728e3f701803b56e6118ccd050fb19b34b285ba7a9d44724363"
+    },
+    {
+      "id": "T032",
+      "title": "Postmortem report and archive",
+      "team": "Information Security",
+      "summary": "Assemble the incident report, supporting evidence, remediation links, and archive metadata.",
+      "tags": [
+        "archive",
+        "audit",
+        "controls",
+        "postmortem",
+        "report",
+        "security"
+      ],
+      "kind": "workflow",
+      "path": "templates/information-security/t032-postmortem-report-and-archive.md",
+      "source_urls": [
+        "https://titanapps.io/blog/post-mortem-incident-review"
+      ],
+      "notes": [],
+      "placeholders": [
+        "calendar_year",
+        "incident_severity",
+        "incident_type",
+        "report_quarter"
+      ],
+      "item_count": 3,
+      "sha256": "ab7fd9306bbad146c19837698b0f8bfe4e9cb9da46baadfccedb9fbea0a80290"
+    },
+    {
+      "id": "T033",
+      "title": "SOC 2 action plan",
+      "team": "Information Security",
+      "summary": "Plan SOC 2 preparation across scope, controls, evidence, training, and ongoing review.",
+      "tags": [
+        "action",
+        "audit",
+        "controls",
+        "plan",
+        "security",
+        "soc"
+      ],
+      "kind": "workflow",
+      "path": "templates/information-security/t033-soc-2-action-plan.md",
+      "source_urls": [
+        "https://titanapps.io/blog/template-for-compliance-audit-in-jira"
+      ],
+      "notes": [
+        "Adapt the process to applicable policies and requirements; this example is not a compliance determination."
+      ],
+      "placeholders": [
+        "calendar_year",
+        "project_name",
+        "vendor_name"
+      ],
+      "item_count": 42,
+      "sha256": "bbb07d6f41054f7fedb878d23d8be72cca1eb7d967e4c4e09125572252fbadf6"
+    },
+    {
+      "id": "T034",
+      "title": "SOC 2 audit preparation",
+      "team": "Information Security",
+      "summary": "Prepare the team, documentation, evidence, and remediation work for a SOC 2 audit.",
+      "tags": [
+        "audit",
+        "controls",
+        "preparation",
+        "security",
+        "soc"
+      ],
+      "kind": "workflow",
+      "path": "templates/information-security/t034-soc-2-audit-preparation.md",
+      "source_urls": [
+        "https://titanapps.io/blog/audit-preparation-checklist"
+      ],
+      "notes": [
+        "Adapt the process to applicable policies and requirements; this example is not a compliance determination."
+      ],
+      "placeholders": [],
+      "item_count": 36,
+      "sha256": "71c37c0470e10e6ae92148e2ef243701569c7cde8de40ad71f8b80cf55151d09"
+    },
+    {
+      "id": "T035",
+      "title": "Vendor security compliance",
+      "team": "Information Security",
+      "summary": "Review a vendor's privacy, security, data handling, and supporting documentation.",
+      "tags": [
+        "audit",
+        "compliance",
+        "controls",
+        "security",
+        "vendor"
+      ],
+      "kind": "workflow",
+      "path": "templates/information-security/t035-vendor-security-compliance.md",
+      "source_urls": [
+        "https://titanapps.io/blog/jira-security"
+      ],
+      "notes": [],
+      "placeholders": [
+        "data_storage_questionnaire_url",
+        "security_questionnaire_url"
+      ],
+      "item_count": 7,
+      "sha256": "8d6aee16a228bf3e919ef9344908cdfbb87e8d09829a06f67a82217464fe4477"
+    },
+    {
+      "id": "T036",
+      "title": "Contract review",
+      "team": "Legal",
+      "summary": "Review counterparty details, contract provisions, risks, approval, and storage.",
+      "tags": [
+        "contract",
+        "legal",
+        "review"
+      ],
+      "kind": "workflow",
+      "path": "templates/legal/t036-contract-review.md",
+      "source_urls": [
+        "https://titanapps.io/blog/contract-review-template"
+      ],
+      "notes": [
+        "Adapt the process to applicable policies and requirements; this example is not a compliance determination."
+      ],
+      "placeholders": [],
+      "item_count": 31,
+      "sha256": "67d94258cd57224c4932f62cb54fd61de490f9c8605991d460ede67e21f9dddc"
+    },
+    {
+      "id": "T037",
+      "title": "Competitor analysis",
+      "team": "Marketing",
+      "summary": "Compare competitors' profiles, features, pricing, channels, reviews, and positioning.",
+      "tags": [
+        "analysis",
+        "competitor",
+        "growth",
+        "marketing"
+      ],
+      "kind": "workflow",
+      "path": "templates/marketing/t037-competitor-analysis.md",
+      "source_urls": [
+        "https://titanapps.io/blog/marketing-research-and-competitor-analysis"
+      ],
+      "notes": [],
+      "placeholders": [
+        "competitor_1",
+        "competitor_2",
+        "competitor_3",
+        "seat_count",
+        "usage_volume"
+      ],
+      "item_count": 44,
+      "sha256": "056939f502f6b8a9a14d4ffc038a326a8709ce85368a5ce3709a580843a1a8da"
+    },
+    {
+      "id": "T038",
+      "title": "Content preparation, review, and publishing",
+      "team": "Marketing",
+      "summary": "Prepare, review, approve, and publish content with quality and search checks.",
+      "tags": [
+        "content",
+        "growth",
+        "marketing",
+        "preparation",
+        "publishing",
+        "review"
+      ],
+      "kind": "workflow",
+      "path": "templates/marketing/t038-content-preparation-review-and-publishing.md",
+      "source_urls": [
+        "https://titanapps.io/blog/jira-content-management"
+      ],
+      "notes": [
+        "Replace _user_id placeholders with confirmed Jira user IDs; user mentions retain @ and are separate from dedicated assignees."
+      ],
+      "placeholders": [
+        "content_manager_user_id",
+        "designer_user_id",
+        "editor_user_id",
+        "executive_user_id",
+        "expert_user_id",
+        "legal_approver_user_id",
+        "max_source_age_years",
+        "meta_description_max_chars",
+        "meta_title_max_chars",
+        "seo_owner_user_id"
+      ],
+      "item_count": 51,
+      "sha256": "bdf5514bdbce750ea75a11d0d124d33a73f57e2eb5c21af4c9944fdf0b7b5b6f"
+    },
+    {
+      "id": "T039",
+      "title": "Email campaign planning and delivery",
+      "team": "Marketing",
+      "summary": "Plan an email campaign, prepare assets, test delivery, and schedule the send.",
+      "tags": [
+        "campaign",
+        "delivery",
+        "email",
+        "growth",
+        "marketing",
+        "planning"
+      ],
+      "kind": "workflow",
+      "path": "templates/marketing/t039-email-campaign-planning-and-delivery.md",
+      "source_urls": [
+        "https://titanapps.io/blog/email-campaign-template",
+        "https://titanapps.io/blog/free-processes-template-library"
+      ],
+      "notes": [],
+      "placeholders": [
+        "brief_due_date",
+        "copy_due_date",
+        "design_due_date",
+        "send_date"
+      ],
+      "item_count": 26,
+      "sha256": "13b1d9705bbe91645d327fa3db64c0575dfdc0c6b1c5c36cd3c25aff8d4d0a9e"
+    },
+    {
+      "id": "T040",
+      "title": "Event planning and delivery",
+      "team": "Marketing",
+      "summary": "Plan an event from logistics and promotion through delivery, follow-up, and retrospective.",
+      "tags": [
+        "delivery",
+        "event",
+        "growth",
+        "marketing",
+        "planning"
+      ],
+      "kind": "workflow",
+      "path": "templates/marketing/t040-event-planning-and-delivery.md",
+      "source_urls": [
+        "https://titanapps.io/blog/event-planning-template-for-jira"
+      ],
+      "notes": [
+        "Replace _user_id placeholders with confirmed Jira user IDs; user mentions retain @ and are separate from dedicated assignees."
+      ],
+      "placeholders": [
+        "email_owner_user_id",
+        "email_sequence_due_date",
+        "email_sequence_url",
+        "follow_up_date",
+        "logistics_email_date",
+        "operations_lead_user_id",
+        "reminder_date",
+        "supplies_due_date",
+        "supplies_list_url"
+      ],
+      "item_count": 66,
+      "sha256": "100625ef7e7187a9b9acfd88e7573636be60d1a864ebc2c093c3c294851a8467"
+    },
+    {
+      "id": "T041",
+      "title": "Feature release marketing",
+      "team": "Marketing",
+      "summary": "Prepare release messaging and assets, coordinate launch channels, and review post-launch performance.",
+      "tags": [
+        "feature",
+        "growth",
+        "marketing",
+        "release"
+      ],
+      "kind": "workflow",
+      "path": "templates/marketing/t041-feature-release-marketing.md",
+      "source_urls": [
+        "https://titanapps.io/blog/marketing-feature-release-template"
+      ],
+      "notes": [
+        "Replaced with the user-supplied version on 16 November 2026; source URLs retain historical blog provenance.",
+        "Role mentions in this checklist are illustrative custom labels. Adapt them to the team; use confirmed Jira user IDs when user mentions or dedicated assignees are needed."
+      ],
+      "placeholders": [
+        "email_campaign_url",
+        "release_blog_url"
+      ],
+      "item_count": 18,
+      "sha256": "78467f00aaead5536b5a80a82541f22cf9e1cb311cb8d10d798f1e4b269e946b",
+      "contribution": {
+        "type": "replacement",
+        "contributor": "maryomely",
+        "date": "2026-11-16",
+        "description": "User-supplied checklist, normalized for repository formatting and reusable placeholders."
+      }
+    },
+    {
+      "id": "T042",
+      "title": "Go-to-market planning",
+      "team": "Marketing",
+      "summary": "Plan target markets, positioning, pricing, channels, launch assets, and measurement.",
+      "tags": [
+        "growth",
+        "market",
+        "marketing",
+        "planning"
+      ],
+      "kind": "workflow",
+      "path": "templates/marketing/t042-go-to-market-planning.md",
+      "source_urls": [
+        "https://titanapps.io/blog/gtm-template"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 27,
+      "sha256": "2a9275d4b5c0632a30a00a64ccdaed5cfdc76db8793fb67d4fb1e9a0e8beb7f5"
+    },
+    {
+      "id": "T043",
+      "title": "Marketing campaign planning and delivery",
+      "team": "Marketing",
+      "summary": "Coordinate campaign goals, budget, timeline, assets, prelaunch checks, delivery, and results.",
+      "tags": [
+        "campaign",
+        "delivery",
+        "growth",
+        "marketing",
+        "planning"
+      ],
+      "kind": "workflow",
+      "path": "templates/marketing/t043-marketing-campaign-planning-and-delivery.md",
+      "source_urls": [
+        "https://titanapps.io/blog/campaign-planning-template"
+      ],
+      "notes": [
+        "Replace _user_id placeholders with confirmed Jira user IDs; user mentions retain @ and are separate from dedicated assignees."
+      ],
+      "placeholders": [
+        "copywriter_user_id",
+        "designer_user_id",
+        "draft_due_date",
+        "executive_user_id",
+        "legal_approver_user_id",
+        "marketer_user_id",
+        "revision_due_date"
+      ],
+      "item_count": 78,
+      "sha256": "24e2ce2b8b63e5aa27f13c3dca9bfd9be2de0f3e64b01cc61d4bc10ea26e94b2"
+    },
+    {
+      "id": "T044",
+      "title": "Marketing onboarding",
+      "team": "Marketing",
+      "summary": "Set up a marketer's tools and introduce the team's content and brand resources.",
+      "tags": [
+        "growth",
+        "marketing",
+        "onboarding"
+      ],
+      "kind": "workflow",
+      "path": "templates/marketing/t044-marketing-onboarding.md",
+      "source_urls": [
+        "https://titanapps.io/blog/employee-onboarding-template-for-jira"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 6,
+      "sha256": "9f331e37784ac4fd12432555e4bc005947826d027628c452c80a36eaf2e6817b"
+    },
+    {
+      "id": "T045",
+      "title": "Marketing report",
+      "team": "Marketing",
+      "summary": "Compile marketing data, evaluate channels and spending, and share actionable findings.",
+      "tags": [
+        "growth",
+        "marketing",
+        "report"
+      ],
+      "kind": "workflow",
+      "path": "templates/marketing/t045-marketing-report.md",
+      "source_urls": [
+        "https://titanapps.io/blog/marketing-report-template-for-jira"
+      ],
+      "notes": [],
+      "placeholders": [
+        "feature_name",
+        "report_month",
+        "report_year"
+      ],
+      "item_count": 29,
+      "sha256": "07a1e60295f7c0812afac9307ba261ca1e8a4fe1cfc7febf90c5fc3ac1b952e5"
+    },
+    {
+      "id": "T046",
+      "title": "Paid ads launch",
+      "team": "Marketing",
+      "summary": "Prepare paid-ad targeting, creative, platform configuration, launch checks, and monitoring.",
+      "tags": [
+        "ads",
+        "growth",
+        "launch",
+        "marketing",
+        "paid"
+      ],
+      "kind": "workflow",
+      "path": "templates/marketing/t046-paid-ads-launch.md",
+      "source_urls": [
+        "https://titanapps.io/blog/launch-paid-ads"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 32,
+      "sha256": "03d22dffe053dbde4dd7f2eb13b442a3f37cf66d5d1b35f4c4a178fd4cf447ec"
+    },
+    {
+      "id": "T047",
+      "title": "SEO audit and optimization",
+      "team": "Marketing",
+      "summary": "Audit tracking, technical SEO, keywords, on-page content, and user experience.",
+      "tags": [
+        "audit",
+        "growth",
+        "marketing",
+        "optimization",
+        "seo"
+      ],
+      "kind": "workflow",
+      "path": "templates/marketing/t047-seo-audit-and-optimization.md",
+      "source_urls": [
+        "https://titanapps.io/blog/free-processes-template-library",
+        "https://titanapps.io/blog/seo-audit-template"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 49,
+      "sha256": "57817a0fd7faa29bbd00e7e976993a05309e4aa55bd86a39ee40dde7b93a90f2"
+    },
+    {
+      "id": "T048",
+      "title": "Target audience research",
+      "team": "Marketing",
+      "summary": "Research customer segments, buying committees, channels, and messages for each audience.",
+      "tags": [
+        "audience",
+        "growth",
+        "marketing",
+        "research",
+        "target"
+      ],
+      "kind": "workflow",
+      "path": "templates/marketing/t048-target-audience-research.md",
+      "source_urls": [
+        "https://titanapps.io/blog/marketing-research-and-competitor-analysis"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 25,
+      "sha256": "376f5d4a615dea37da583881e411baf942f5b6055998c210bb03805efd465615"
+    },
+    {
+      "id": "T049",
+      "title": "Webinar planning and delivery",
+      "team": "Marketing",
+      "summary": "Coordinate webinar preparation, promotion, rehearsal, live delivery, and follow-up.",
+      "tags": [
+        "delivery",
+        "growth",
+        "marketing",
+        "planning",
+        "webinar"
+      ],
+      "kind": "workflow",
+      "path": "templates/marketing/t049-webinar-planning-and-delivery.md",
+      "source_urls": [
+        "https://titanapps.io/blog/jira-event-management"
+      ],
+      "notes": [
+        "Replace _user_id placeholders with confirmed Jira user IDs; user mentions retain @ and are separate from dedicated assignees."
+      ],
+      "placeholders": [
+        "designer_user_id",
+        "event_date",
+        "event_name"
+      ],
+      "item_count": 33,
+      "sha256": "f4b04bcfb6206397c62fb1f2be270490b48ddd6f882d6b0e53dd4fe4b9812dff"
+    },
+    {
+      "id": "T050",
+      "title": "Website optimization",
+      "team": "Marketing",
+      "summary": "Review website technical health, content, AI discoverability, and conversion experience.",
+      "tags": [
+        "growth",
+        "marketing",
+        "optimization",
+        "website"
+      ],
+      "kind": "workflow",
+      "path": "templates/marketing/t050-website-optimization.md",
+      "source_urls": [
+        "https://titanapps.io/blog/website-optimization-checklist"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 45,
+      "sha256": "a7bcb1f5e2ec5b26705e7a5a1c337e12ef21c057cdfad9f37a682756a63b775b"
+    },
+    {
+      "id": "T051",
+      "title": "Existing SaaS subscription",
+      "team": "Procurement",
+      "summary": "Handle changes to an existing SaaS subscription, billing information, and approvals.",
+      "tags": [
+        "existing",
+        "procurement",
+        "purchasing",
+        "saas",
+        "subscription",
+        "vendor"
+      ],
+      "kind": "workflow",
+      "path": "templates/procurement/t051-existing-saas-subscription.md",
+      "source_urls": [
+        "https://titanapps.io/blog/software-licensing-management"
+      ],
+      "notes": [
+        "Replace _user_id placeholders with confirmed Jira user IDs; user mentions retain @ and are separate from dedicated assignees."
+      ],
+      "placeholders": [
+        "approval_threshold",
+        "budget_owner_user_id",
+        "currency_code"
+      ],
+      "item_count": 7,
+      "sha256": "3b836ed03a49129f1aa6d4134bbe6c02508bcd746cdcf816cc9009076f878909"
+    },
+    {
+      "id": "T052",
+      "title": "New SaaS request",
+      "team": "Procurement",
+      "summary": "Process a new SaaS request with security review, purchase details, and budget approval.",
+      "tags": [
+        "new",
+        "procurement",
+        "purchasing",
+        "request",
+        "saas",
+        "vendor"
+      ],
+      "kind": "workflow",
+      "path": "templates/procurement/t052-new-saas-request.md",
+      "source_urls": [
+        "https://titanapps.io/blog/software-licensing-management"
+      ],
+      "notes": [
+        "The source starts the security review in progress (~). Use - for a fresh request unless work has actually started.",
+        "Replace _user_id placeholders with confirmed Jira user IDs; user mentions retain @ and are separate from dedicated assignees."
+      ],
+      "placeholders": [
+        "approval_threshold",
+        "budget_owner_user_id",
+        "currency_code"
+      ],
+      "item_count": 9,
+      "sha256": "e29e3c2ba1d60fadebe7ba9b4d061780a969ce4afe2f4f41108541cc4b2c04ea"
+    },
+    {
+      "id": "T053",
+      "title": "Procurement request",
+      "team": "Procurement",
+      "summary": "Collect purchase requirements, obtain approvals, and confirm delivery expectations.",
+      "tags": [
+        "procurement",
+        "purchasing",
+        "request",
+        "vendor"
+      ],
+      "kind": "workflow",
+      "path": "templates/procurement/t053-procurement-request.md",
+      "source_urls": [
+        "https://titanapps.io/blog/procurement-in-jira"
+      ],
+      "notes": [
+        "Replace _user_id placeholders with confirmed Jira user IDs; user mentions retain @ and are separate from dedicated assignees."
+      ],
+      "placeholders": [
+        "delivery_date",
+        "recipient_user_id"
+      ],
+      "item_count": 13,
+      "sha256": "1ae6c73c80da4056f2772e0a4fa5838da6e9ec53117e32ba5606b9ee0a1337a0"
+    },
+    {
+      "id": "T054",
+      "title": "Vendor evaluation and due diligence",
+      "team": "Procurement",
+      "summary": "Evaluate vendor fit, pricing, legal terms, security, reputation, and ongoing performance.",
+      "tags": [
+        "diligence",
+        "due",
+        "evaluation",
+        "procurement",
+        "purchasing",
+        "vendor"
+      ],
+      "kind": "workflow",
+      "path": "templates/procurement/t054-vendor-evaluation-and-due-diligence.md",
+      "source_urls": [
+        "https://titanapps.io/blog/free-processes-template-library",
+        "https://titanapps.io/blog/hardware-procurement-template",
+        "https://titanapps.io/blog/procurement-template-for-jira",
+        "https://titanapps.io/blog/vendor-due-diligence-checklist"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 39,
+      "sha256": "6194bc3a274df6c637b71518e708d99b8e3ee729c1c40ba4f86d89b553b94851"
+    },
+    {
+      "id": "T055",
+      "title": "Vendor partnership evaluation",
+      "team": "Procurement",
+      "summary": "Evaluate collaboration opportunities, competitive bids, and partnership value.",
+      "tags": [
+        "evaluation",
+        "partnership",
+        "procurement",
+        "purchasing",
+        "vendor"
+      ],
+      "kind": "workflow",
+      "path": "templates/procurement/t055-vendor-partnership-evaluation.md",
+      "source_urls": [
+        "https://titanapps.io/blog/hardware-procurement-template",
+        "https://titanapps.io/blog/procurement-template-for-jira"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 6,
+      "sha256": "a892de1883eccb17b1241a461de04a463c0858c5bbc2ebd9d0f8fcce4a4ab453"
+    },
+    {
+      "id": "T056",
+      "title": "Vendor pricing and negotiation",
+      "team": "Procurement",
+      "summary": "Prepare vendor pricing discussions, negotiation points, and a draft agreement.",
+      "tags": [
+        "negotiation",
+        "pricing",
+        "procurement",
+        "purchasing",
+        "vendor"
+      ],
+      "kind": "workflow",
+      "path": "templates/procurement/t056-vendor-pricing-and-negotiation.md",
+      "source_urls": [
+        "https://titanapps.io/blog/hardware-procurement-template",
+        "https://titanapps.io/blog/procurement-template-for-jira"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 8,
+      "sha256": "b71d77b9f5d0882746c4f63a9dd9b00420b076133befad8622d87ddb0f9fb364"
+    },
+    {
+      "id": "T057",
+      "title": "Definition of Ready",
+      "team": "Product Management",
+      "summary": "Confirm testable acceptance criteria, agreed scope, designs, dependencies, technical approach, and no blocking questions.",
+      "tags": [
+        "definition",
+        "discovery",
+        "product",
+        "ready",
+        "requirements"
+      ],
+      "kind": "criteria",
+      "path": "templates/product-management/t057-definition-of-ready.md",
+      "source_urls": [
+        "https://titanapps.io/blog/agile-jira",
+        "https://titanapps.io/blog/claude-ai-agent",
+        "https://titanapps.io/blog/jira-checkbox",
+        "https://titanapps.io/blog/jira-sprint-planning"
+      ],
+      "notes": [
+        "Replaced with the user-supplied version on 16 November 2026; source URLs retain historical blog provenance.",
+        "Role mentions in this checklist are illustrative custom labels. Adapt them to the team; use confirmed Jira user IDs when user mentions or dedicated assignees are needed."
+      ],
+      "placeholders": [
+        "testing_guide_url"
+      ],
+      "item_count": 10,
+      "sha256": "ea92ec4913d250145d2682f91a61e9a21c0d03707cc5624a8155c5bc6cc27642",
+      "contribution": {
+        "type": "replacement",
+        "contributor": "maryomely",
+        "date": "2026-11-16",
+        "description": "User-supplied checklist, normalized for repository formatting and reusable placeholders."
+      }
+    },
+    {
+      "id": "T058",
+      "title": "Feature scope and prioritization",
+      "team": "Product Management",
+      "summary": "Clarify a feature's purpose, scope, priorities, and readiness for technical delivery.",
+      "tags": [
+        "discovery",
+        "feature",
+        "prioritization",
+        "product",
+        "requirements",
+        "scope"
+      ],
+      "kind": "workflow",
+      "path": "templates/product-management/t058-feature-scope-and-prioritization.md",
+      "source_urls": [
+        "https://titanapps.io/blog/jira-feature-release-template-for-delivery-managers"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 6,
+      "sha256": "9eab76848fe8bd05935b4da072400b324af5ffc7aa5e210f9911e0c6500d0170"
+    },
+    {
+      "id": "T059",
+      "title": "Product discovery",
+      "team": "Product Management",
+      "summary": "Investigate a product problem, users, assumptions, solution options, and validation evidence.",
+      "tags": [
+        "discovery",
+        "product",
+        "requirements"
+      ],
+      "kind": "workflow",
+      "path": "templates/product-management/t059-product-discovery.md",
+      "source_urls": [
+        "https://titanapps.io/blog/product-discovery-template",
+        "https://titanapps.io/blog/what-is-jira-product-discovery"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 19,
+      "sha256": "4fc7b03e04d76ab0fda6e298d8a81530c5f7c245cd8d7c90113da9cedbe2eb2b"
+    },
+    {
+      "id": "T060",
+      "title": "Annual stakeholder report",
+      "team": "Project Management",
+      "summary": "Collect annual business results, strategic insights, supporting evidence, and stakeholder feedback.",
+      "tags": [
+        "annual",
+        "delivery",
+        "planning",
+        "project",
+        "report",
+        "stakeholder"
+      ],
+      "kind": "workflow",
+      "path": "templates/project-management/t060-annual-stakeholder-report.md",
+      "source_urls": [
+        "https://titanapps.io/blog/free-processes-template-library"
+      ],
+      "notes": [],
+      "placeholders": [
+        "report_data_url",
+        "report_folder_url",
+        "report_year",
+        "stakeholder_feedback_url",
+        "stakeholder_list_url"
+      ],
+      "item_count": 39,
+      "sha256": "14b563da09378d6cda7795301f78f288a09aa4379049fc76a8ae4505ca7c926f"
+    },
+    {
+      "id": "T061",
+      "title": "Client onboarding",
+      "team": "Project Management",
+      "summary": "Coordinate client kickoff, communication, requirements, tools, planning, and onboarding review.",
+      "tags": [
+        "client",
+        "delivery",
+        "onboarding",
+        "planning",
+        "project"
+      ],
+      "kind": "workflow",
+      "path": "templates/project-management/t061-client-onboarding.md",
+      "source_urls": [
+        "https://titanapps.io/blog/client-onboarding-checklist"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 24,
+      "sha256": "f37696a42b4b2058dab20772ea6596fbbe7d0aa60e4cb560a405e0a3a29aca19"
+    },
+    {
+      "id": "T062",
+      "title": "Feature documentation and release notes",
+      "team": "Project Management",
+      "summary": "Prepare release notes and communicate documentation changes to affected teams.",
+      "tags": [
+        "delivery",
+        "documentation",
+        "feature",
+        "notes",
+        "planning",
+        "project",
+        "release"
+      ],
+      "kind": "workflow",
+      "path": "templates/project-management/t062-feature-documentation-and-release-notes.md",
+      "source_urls": [
+        "https://titanapps.io/blog/jira-feature-release-template-for-delivery-managers"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 5,
+      "sha256": "9f40ccedee9b5b236701c2dbabae92c6d316ba987e708cc4210d18299e594f8c"
+    },
+    {
+      "id": "T063",
+      "title": "Feature stakeholder communication",
+      "team": "Project Management",
+      "summary": "Coordinate feature announcements, demos, and stakeholder communication.",
+      "tags": [
+        "communication",
+        "delivery",
+        "feature",
+        "planning",
+        "project",
+        "stakeholder"
+      ],
+      "kind": "workflow",
+      "path": "templates/project-management/t063-feature-stakeholder-communication.md",
+      "source_urls": [
+        "https://titanapps.io/blog/jira-feature-release-template-for-delivery-managers"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 5,
+      "sha256": "18d7ca8d0603bb6f7e37a1e810990682f83d06b3c4fc39c35bf32bda6fc6f6bc"
+    },
+    {
+      "id": "T064",
+      "title": "Objectives and key results",
+      "team": "Project Management",
+      "summary": "Define objectives and measurable key results, assign owners, and review progress.",
+      "tags": [
+        "delivery",
+        "key",
+        "objectives",
+        "planning",
+        "project",
+        "results"
+      ],
+      "kind": "workflow",
+      "path": "templates/project-management/t064-objectives-and-key-results.md",
+      "source_urls": [
+        "https://titanapps.io/blog/free-processes-template-library",
+        "https://titanapps.io/blog/jira-okrs"
+      ],
+      "notes": [],
+      "placeholders": [
+        "alignment_due_date",
+        "key_result_title",
+        "key_results_due_date",
+        "metric_name",
+        "objectives_due_date",
+        "ownership_due_date",
+        "period_end_date",
+        "review_date"
+      ],
+      "item_count": 39,
+      "sha256": "9c5fe559d283eb05c7d5355e7835efe5bf62bdcbc39c3d35771df727086ffd0e"
+    },
+    {
+      "id": "T065",
+      "title": "Project kickoff",
+      "team": "Project Management",
+      "summary": "Prepare project scope, knowledge sharing, Jira setup, tools, and team activities.",
+      "tags": [
+        "delivery",
+        "kickoff",
+        "planning",
+        "project"
+      ],
+      "kind": "workflow",
+      "path": "templates/project-management/t065-project-kickoff.md",
+      "source_urls": [
+        "https://titanapps.io/blog/project-kick-off-template"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 13,
+      "sha256": "a8810a9e75b55fefd4b5e637b3941b3aa4b10850bebec0039cc8fb72121220c9"
+    },
+    {
+      "id": "T066",
+      "title": "Sprint planning",
+      "team": "Project Management",
+      "summary": "Prepare sprint scope, story readiness, team capacity, logistics, and start conditions.",
+      "tags": [
+        "delivery",
+        "planning",
+        "project",
+        "sprint"
+      ],
+      "kind": "workflow",
+      "path": "templates/project-management/t066-sprint-planning.md",
+      "source_urls": [
+        "https://titanapps.io/blog/agile-jira"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 20,
+      "sha256": "4cdfed28f0db009d6422dec89d941b285be3d6084bd2e854a7a5be193a5f74f9"
+    },
+    {
+      "id": "T067",
+      "title": "API testing",
+      "team": "Quality Assurance",
+      "summary": "Verify API contracts, requests, error handling, authorization, reliability, and reporting.",
+      "tags": [
+        "api",
+        "qa",
+        "quality",
+        "testing"
+      ],
+      "kind": "workflow",
+      "path": "templates/quality-assurance/t067-api-testing.md",
+      "source_urls": [
+        "https://titanapps.io/blog/qa-checklist"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 31,
+      "sha256": "a55c407566b2f53bd66cc6007fc5d63155136bf533d27303cd824d519a401d15"
+    },
+    {
+      "id": "T070",
+      "title": "Bug reporting, investigation, and fix validation",
+      "team": "Quality Assurance",
+      "summary": "Create a complete bug report, investigate and prioritize it, then validate the fix and regression coverage.",
+      "tags": [
+        "bug",
+        "completeness",
+        "fix",
+        "investigation",
+        "qa",
+        "quality",
+        "report",
+        "testing",
+        "validation",
+        "verification"
+      ],
+      "kind": "workflow",
+      "path": "templates/quality-assurance/t070-bug-report-completeness.md",
+      "source_urls": [
+        "https://titanapps.io/blog/claude-ai-agent",
+        "https://titanapps.io/blog/jira-bug-management",
+        "https://titanapps.io/blog/jira-bug-report",
+        "https://titanapps.io/blog/jira-bug-template"
+      ],
+      "notes": [
+        "Replaced with the user-supplied version on 16 November 2026; source URLs retain historical blog provenance.",
+        "Consolidates T068, T069; use the relevant sections of this checklist instead of the retired standalone templates."
+      ],
+      "placeholders": [],
+      "item_count": 15,
+      "sha256": "e3f067065c982d37b595fd06e9f81638df10f6ef533acd0d2deee1b3324c1c38",
+      "superseded_ids": [
+        "T068",
+        "T069"
+      ],
+      "contribution": {
+        "type": "replacement",
+        "contributor": "maryomely",
+        "date": "2026-11-16",
+        "description": "User-supplied checklist, normalized for repository formatting and reusable placeholders."
+      }
+    },
+    {
+      "id": "T071",
+      "title": "QA testing",
+      "team": "Quality Assurance",
+      "summary": "Complete functional and regression testing, applicable specialist checks, defect triage, evidence, and QA sign-off.",
+      "tags": [
+        "feature",
+        "qa",
+        "quality",
+        "testing"
+      ],
+      "kind": "workflow",
+      "path": "templates/quality-assurance/t071-feature-qa-and-testing.md",
+      "source_urls": [
+        "https://titanapps.io/blog/jira-feature-release-template-for-delivery-managers"
+      ],
+      "notes": [
+        "Replaced with the user-supplied version on 16 November 2026; source URLs retain historical blog provenance.",
+        "Role mentions in this checklist are illustrative custom labels. Adapt them to the team; use confirmed Jira user IDs when user mentions or dedicated assignees are needed.",
+        "The 1000-concurrent-user load target and named browsers are supplied test-scope choices; confirm them for the product before use."
+      ],
+      "placeholders": [
+        "qa_results_url",
+        "requirements_doc_url"
+      ],
+      "item_count": 14,
+      "sha256": "381137d5c597d2cb6c362cf4312ed70f218d13516dbc1f3415312abc79b7e90d",
+      "contribution": {
+        "type": "replacement",
+        "contributor": "maryomely",
+        "date": "2026-11-16",
+        "description": "User-supplied checklist, normalized for repository formatting and reusable placeholders."
+      }
+    },
+    {
+      "id": "T072",
+      "title": "Performance testing",
+      "team": "Quality Assurance",
+      "summary": "Plan load scenarios, establish thresholds, run performance tests, and report findings.",
+      "tags": [
+        "performance",
+        "qa",
+        "quality",
+        "testing"
+      ],
+      "kind": "workflow",
+      "path": "templates/quality-assurance/t072-performance-testing.md",
+      "source_urls": [
+        "https://titanapps.io/blog/qa-checklist"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 25,
+      "sha256": "364fc6b8e92c55600e2be4fc65e03c38f90f78998b3a40b915d7d5e6492f4e18"
+    },
+    {
+      "id": "T073",
+      "title": "General regression testing",
+      "team": "Quality Assurance",
+      "summary": "Run general regression coverage across UI, functionality, integrations, performance, and security.",
+      "tags": [
+        "checklist",
+        "general",
+        "qa",
+        "quality",
+        "regression",
+        "testing"
+      ],
+      "kind": "workflow",
+      "path": "templates/quality-assurance/t073-regression-testing-general-checklist.md",
+      "source_urls": [
+        "https://titanapps.io/blog/jira-release-planning",
+        "https://titanapps.io/blog/release-process-with-smart-checklist"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 26,
+      "sha256": "160047e16e86a59f6f8bf73ab467ecb8dc104bade5c71a75a92fdbbc99d4662c"
+    },
+    {
+      "id": "T074",
+      "title": "Security testing",
+      "team": "Quality Assurance",
+      "summary": "Check application security across authentication, sessions, access control, inputs, and data.",
+      "tags": [
+        "qa",
+        "quality",
+        "security",
+        "testing"
+      ],
+      "kind": "workflow",
+      "path": "templates/quality-assurance/t074-security-testing.md",
+      "source_urls": [
+        "https://titanapps.io/blog/qa-checklist"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 29,
+      "sha256": "a3973ca94071c2dd5d3a32bdc1db59c7d78f2321a02db87a77afdd510799cafb"
+    },
+    {
+      "id": "T075",
+      "title": "Smart Checklist regression testing",
+      "team": "Quality Assurance",
+      "summary": "Illustrate Smart Checklist product regression scenarios, template behavior, and JQL patterns.",
+      "tags": [
+        "checklist",
+        "qa",
+        "quality",
+        "regression",
+        "smart",
+        "testing"
+      ],
+      "kind": "product-regression-example",
+      "path": "templates/quality-assurance/t075-smart-checklist-regression-testing.md",
+      "source_urls": [
+        "https://titanapps.io/blog/regression-testing-template"
+      ],
+      "notes": [
+        "Specific to testing Smart Checklist. For a general regression checklist, prefer T073. JQL fragments include alternatives and legacy properties: verify against current documentation and replace placeholders before execution."
+      ],
+      "placeholders": [
+        "custom_field_id",
+        "custom_status",
+        "date_dmy",
+        "date_iso",
+        "item_count",
+        "item_text",
+        "team_mention",
+        "user_id"
+      ],
+      "item_count": 136,
+      "sha256": "7857d9de55f007e27a2bd756f4c703f89c555bddb084c4853d44300686916a16"
+    },
+    {
+      "id": "T076",
+      "title": "Test execution",
+      "team": "Quality Assurance",
+      "summary": "Prepare a test run, execute cases, record defects, and hand over the results.",
+      "tags": [
+        "execution",
+        "qa",
+        "quality",
+        "test",
+        "testing"
+      ],
+      "kind": "workflow",
+      "path": "templates/quality-assurance/t076-test-execution.md",
+      "source_urls": [
+        "https://titanapps.io/blog/qa-checklist"
+      ],
+      "notes": [],
+      "placeholders": [
+        "feature_area"
+      ],
+      "item_count": 19,
+      "sha256": "503e7649c0f969a2812b4256c64b14676334a6a2a16ffe5280e8df9d9f639682"
+    },
+    {
+      "id": "T077",
+      "title": "Test plan entry and exit criteria",
+      "team": "Quality Assurance",
+      "summary": "Define the environment, evidence, and quality conditions for starting and finishing testing.",
+      "tags": [
+        "criteria",
+        "entry",
+        "exit",
+        "plan",
+        "qa",
+        "quality",
+        "test",
+        "testing"
+      ],
+      "kind": "criteria",
+      "path": "templates/quality-assurance/t077-test-plan-entry-and-exit-criteria.md",
+      "source_urls": [
+        "https://titanapps.io/blog/jira-test-plan-template"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 17,
+      "sha256": "68b77423fcd0ac2f4f73b500547e34761d9ef123d30633181b3c50832aa5fabd"
+    },
+    {
+      "id": "T078",
+      "title": "Usability and accessibility testing",
+      "team": "Quality Assurance",
+      "summary": "Check accessible interactions, content, navigation, contrast, and form usability.",
+      "tags": [
+        "accessibility",
+        "qa",
+        "quality",
+        "testing",
+        "usability"
+      ],
+      "kind": "workflow",
+      "path": "templates/quality-assurance/t078-usability-and-accessibility-testing.md",
+      "source_urls": [
+        "https://titanapps.io/blog/qa-checklist"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 12,
+      "sha256": "f13a170a1b28ac5816af4d122c146649e5659a18d2789f3e4f8d767b4fa0b973"
+    },
+    {
+      "id": "T079",
+      "title": "Sales onboarding",
+      "team": "Sales",
+      "summary": "Set up sales tools and introduce the team's product and sales processes.",
+      "tags": [
+        "enablement",
+        "onboarding",
+        "sales"
+      ],
+      "kind": "workflow",
+      "path": "templates/sales/t079-sales-onboarding.md",
+      "source_urls": [
+        "https://titanapps.io/blog/employee-onboarding-template-for-jira"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 6,
+      "sha256": "b4224f24889ca41d3698af62735d19c6c4cec283d94f06f906d8fe68c2bc4d2d"
+    },
+    {
+      "id": "T080",
+      "title": "Service request fulfillment",
+      "team": "Support",
+      "summary": "Fulfill an internal service request with identity, provisioning, and closure gates.",
+      "tags": [
+        "fulfillment",
+        "jsm",
+        "request",
+        "service",
+        "service-desk",
+        "support"
+      ],
+      "kind": "workflow",
+      "path": "templates/support/t080-service-request-fulfillment.md",
+      "source_urls": [
+        "https://titanapps.io/blog/jira-ticketing-system"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 6,
+      "sha256": "fa50fdf6e0012eee01b49f6e0af9f7da918df9a8a648214722bead65afa5a9b9"
+    },
+    {
+      "id": "T081",
+      "title": "Support ticket triage",
+      "team": "Support",
+      "summary": "Triage support requests, assess impact, route ownership, and record next steps.",
+      "tags": [
+        "jsm",
+        "service-desk",
+        "support",
+        "ticket",
+        "triage"
+      ],
+      "kind": "workflow",
+      "path": "templates/support/t081-support-ticket-triage.md",
+      "source_urls": [
+        "https://titanapps.io/blog/ticket-triage-and-prioritization-checklist-template-for-jira-support-teams"
+      ],
+      "notes": [],
+      "placeholders": [],
+      "item_count": 7,
+      "sha256": "08c55b83f8b85314255659a180b6b23189795db53ced92f37caf9b04f1180caa"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://titanapps.io/blog/agile-checklist-tools",
+      "title": "7 Best Agile Checklist Tools for 2026 to Keep Recurring Work on Track"
+    },
+    {
+      "url": "https://titanapps.io/blog/automate-jira-processes",
+      "title": "A 2026 Jira Automation Guide With the Top 10 Most Common Use Cases"
+    },
+    {
+      "url": "https://titanapps.io/blog/seo-audit-template",
+      "title": "A Complete SEO Audit Template: Step-by-Step Checklist for 2026"
+    },
+    {
+      "url": "https://titanapps.io/blog/client-onboarding-checklist",
+      "title": "A Free Client Onboarding Checklist Template For Agile Teams"
+    },
+    {
+      "url": "https://titanapps.io/blog/hardware-procurement-template",
+      "title": "A Free Hardware Procurement Template for Jira: Order Equipment Faster and Never Forget a Thing"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-position-opening-template",
+      "title": "A Free Jira Position Opening Template for Recruitment Teams"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-test-plan-template",
+      "title": "A Free Jira Test Plan Template, Plus Everything You Need to Know to Make it Work"
+    },
+    {
+      "url": "https://titanapps.io/blog/pre-production-checklist",
+      "title": "A Free Pre-Production Checklist Template For Quality Checks in Software Development"
+    },
+    {
+      "url": "https://titanapps.io/blog/product-discovery-template",
+      "title": "A Free Product Discovery and Validation Template: Step-by-Step Checklist"
+    },
+    {
+      "url": "https://titanapps.io/blog/project-kick-off-template",
+      "title": "A Free Project Kick-off Template for Agile Teams"
+    },
+    {
+      "url": "https://titanapps.io/blog/release-readiness-checklist",
+      "title": "A Free Release Readiness Checklist Template"
+    },
+    {
+      "url": "https://titanapps.io/blog/gtm-template",
+      "title": "A GTM Template for Jira to Help You Prepare a Go-to-Market Strategy Step-by-Step"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-audit-logs",
+      "title": "A Guide to Jira Audit Logs: What They Track and How to Use Them"
+    },
+    {
+      "url": "https://titanapps.io/blog/marketing-report-template-for-jira",
+      "title": "A Marketing Report Template for Jira"
+    },
+    {
+      "url": "https://titanapps.io/blog/business-travel-template",
+      "title": "A Ready-to-Use Business Travel Template For Jira"
+    },
+    {
+      "url": "https://titanapps.io/blog/release-process-with-smart-checklist",
+      "title": "Achieve Consistent and Reliable Release Process with Smart Checklist"
+    },
+    {
+      "url": "https://titanapps.io/blog/invoice-approval-process",
+      "title": "An Invoice Approval Process Template In Jira"
+    },
+    {
+      "url": "https://titanapps.io/blog/audit-preparation-checklist",
+      "title": "Audit Preparation Checklist in Jira: Step-by-Step Guide to a Smooth SOC 2 Audit"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-bug-template",
+      "title": "Bug Template for Jira: Streamline Bug Tracking and Reporting"
+    },
+    {
+      "url": "https://titanapps.io/blog/claude-ai-agent",
+      "title": "Claude AI Agent in Jira: Full Guide and Use Cases"
+    },
+    {
+      "url": "https://titanapps.io/blog/contract-review-template",
+      "title": "Contract Review Template for the Legal Team: a Free Checklist"
+    },
+    {
+      "url": "https://titanapps.io/blog/difference-between-agile-and-scrum",
+      "title": "Difference Between Agile and Scrum"
+    },
+    {
+      "url": "https://titanapps.io/blog/employee-evaluation-template",
+      "title": "Employee Evaluation Template For HR: A Free Checklist That Makes a Difference"
+    },
+    {
+      "url": "https://titanapps.io/blog/employee-onboarding-template-for-jira",
+      "title": "Employee Onboarding Template for Jira: Streamline New Hire Integration"
+    },
+    {
+      "url": "https://titanapps.io/blog/event-planning-template-for-jira",
+      "title": "Event Planning Template for Jira: How to Build a Reusable Workflow for Offline Events"
+    },
+    {
+      "url": "https://titanapps.io/blog/free-processes-template-library",
+      "title": "Free Processes Template Library"
+    },
+    {
+      "url": "https://titanapps.io/blog/agile-jira",
+      "title": "From Agile Jira Boards to Smart Tools: How You Can Implement Agile in Jira"
+    },
+    {
+      "url": "https://titanapps.io/blog/gdpr-data-deletion-request-template",
+      "title": "GDPR Data Deletion Request Template"
+    },
+    {
+      "url": "https://titanapps.io/blog/git-and-jira-integration",
+      "title": "Git and Jira Integration in 2026: Setup, Smart Commits, and Daily Workflow Tips"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-checkbox",
+      "title": "How to Add a Jira Checkbox (ToDo) to a Jira Work Item Description"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-ticket-creation-automation",
+      "title": "How to Automate Jira Ticket Creation For Recurring Tasks"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-payroll-template",
+      "title": "How to Easily Create a Jira Payroll Template That Will Save Your Time"
+    },
+    {
+      "url": "https://titanapps.io/blog/launch-paid-ads",
+      "title": "How to Launch Paid Ads: a Quick Guide With a Hands-on Checklist"
+    },
+    {
+      "url": "https://titanapps.io/blog/campaign-planning-template",
+      "title": "How to Make Marketing Easier With a Campaign Planning Template"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-sprint-planning",
+      "title": "How to Make Your Jira Sprint Planning Really Agile"
+    },
+    {
+      "url": "https://titanapps.io/blog/definition-of-done-in-jira",
+      "title": "How to Manage the Definition of Done in Jira"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-workflow",
+      "title": "How to Manage Workflow in Jira"
+    },
+    {
+      "url": "https://titanapps.io/blog/migrating-server-to-cloud",
+      "title": "How to Migrate From Server to Cloud or Data Center"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-release-planning",
+      "title": "How to Plan a Product Release in Jira"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-content-management",
+      "title": "How to Set Up Content Management in Jira: Step-by-Step Guide"
+    },
+    {
+      "url": "https://titanapps.io/blog/procurement-in-jira",
+      "title": "How to Setup Procurement Workflow in Jira"
+    },
+    {
+      "url": "https://titanapps.io/blog/email-campaign-template",
+      "title": "How to Use an Email Campaign Template in Jira to Launch Campaigns Faster"
+    },
+    {
+      "url": "https://titanapps.io/blog/how-to-use-epics-in-jira",
+      "title": "How to Use Epics in Jira: Examples, Best Practices, and More"
+    },
+    {
+      "url": "https://titanapps.io/blog/how-to-view-previous-sprint-in-jira",
+      "title": "How to View Previous Sprints in Jira in a Few Clicks"
+    },
+    {
+      "url": "https://titanapps.io/blog/ai-native-sdlc",
+      "title": "How We Organized an AI-native SDLC in Jira with Rovo for the Smart Checklist Team"
+    },
+    {
+      "url": "https://titanapps.io/blog/implementation-plan",
+      "title": "Implementation Plan in Jira: Turning Strategy into Actionable Steps"
+    },
+    {
+      "url": "https://titanapps.io/blog/incident-management-template",
+      "title": "Incident Management Template for Jira: a Free Checklist"
+    },
+    {
+      "url": "https://titanapps.io/blog/internal-control-policy-template",
+      "title": "Internal Control Policy Template: How to Document Controls and Verify They Work"
+    },
+    {
+      "url": "https://titanapps.io/blog/internal-security-audit-template",
+      "title": "ISO 27001 Internal Security Audit Template in Jira"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-automation",
+      "title": "Jira Automation Best Practices That Will Save You Time"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-budget-tracking",
+      "title": "Jira Budget Tracking: Templates to Plan, Check, and Review Your Budget"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-bug-management",
+      "title": "Jira Bug Management Guide 2026: From Basic Features to AI Bug Triage Agents"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-bug-report",
+      "title": "Jira Bug Report: a Practical Guide for QA and Agile Teams"
+    },
+    {
+      "url": "https://titanapps.io/blog/capacity-planning-in-jira",
+      "title": "Jira Capacity Planning: How to Plan Team Capacity Without Premium"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-change-management-policy-update-sign-off-template",
+      "title": "Jira Change Management (Policy Update Sign-off) Template"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-code-review",
+      "title": "Jira Code Review Template"
+    },
+    {
+      "url": "https://titanapps.io/blog/epic-vs-story-vs-task",
+      "title": "Jira Epic vs Story vs Task: What to Use and When"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-feature-release-template-for-delivery-managers",
+      "title": "Jira Feature Release Template for Delivery Managers"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-for-hr",
+      "title": "Jira For HR: How to Set up HR Automation And Use Checklists in Jira"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-okrs",
+      "title": "Jira OKRs Template That Will Help You Plan Goals and Track Their Execution"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-ticketing-system",
+      "title": "Jira Ticketing System: How Jira Service Management Handles Requests from Intake to Resolution"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-versions",
+      "title": "Jira Versions Explained: How to Plan Releases, Track Progress, and Ship Efficiently"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-security",
+      "title": "Maintaining Jira Security When Using Third-Party Apps"
+    },
+    {
+      "url": "https://titanapps.io/blog/marketing-research-and-competitor-analysis",
+      "title": "Marketing Research Template: From Competitor Analysis to Audience Research"
+    },
+    {
+      "url": "https://titanapps.io/blog/offboarding-template-in-jira",
+      "title": "Offboarding Template in Jira: Streamline the Employee Exit Process"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-event-management",
+      "title": "Online event planning template"
+    },
+    {
+      "url": "https://titanapps.io/blog/performance-review-template",
+      "title": "Performance Review Template That Actually Works"
+    },
+    {
+      "url": "https://titanapps.io/blog/post-mortem-incident-review",
+      "title": "Post-mortem Incident Review"
+    },
+    {
+      "url": "https://titanapps.io/blog/procurement-template-for-jira",
+      "title": "Procurement Template for Jira: Streamline Your Purchasing Workflows"
+    },
+    {
+      "url": "https://titanapps.io/blog/project-planning-jira",
+      "title": "Project Planning In Jira Explained: How to Create Meaningful Plans in 6 Steps"
+    },
+    {
+      "url": "https://titanapps.io/blog/project-tracking-in-jira",
+      "title": "Project Tracking in Jira: How to Get Full Visibility Across Your Team"
+    },
+    {
+      "url": "https://titanapps.io/blog/qa-checklist",
+      "title": "QA Checklists in Software Development: Types, Examples, and Pro Tips"
+    },
+    {
+      "url": "https://titanapps.io/blog/recruiting-plan-template",
+      "title": "Recruiting Plan Template for Jira: Streamline Your Hiring Process"
+    },
+    {
+      "url": "https://titanapps.io/blog/regression-testing-template",
+      "title": "Regression Testing Template for Jira: A Practical Checklist"
+    },
+    {
+      "url": "https://titanapps.io/blog/optimize-business-travel-management-smart-checklist",
+      "title": "Save 25% Operations Time: How to Optimize Business Travel Management with Smart Checklist"
+    },
+    {
+      "url": "https://titanapps.io/blog/scaled-agile-framework",
+      "title": "Scaled Agile Framework: A Clear Beginner’s Guide That Actually Explains It"
+    },
+    {
+      "url": "https://titanapps.io/blog/software-developers-onboarding",
+      "title": "Software Developers’ Onboarding in Jira: Free Checklist"
+    },
+    {
+      "url": "https://titanapps.io/blog/software-licensing-management",
+      "title": "Software Licensing Management in 2026: Step-by-Step Guide"
+    },
+    {
+      "url": "https://titanapps.io/blog/template-for-compliance-audit-in-jira",
+      "title": "Template for Compliance Audit in Jira"
+    },
+    {
+      "url": "https://titanapps.io/blog/vendor-due-diligence-checklist",
+      "title": "The Most Useful Vendor Due Diligence Checklist for 2026"
+    },
+    {
+      "url": "https://titanapps.io/blog/ticket-triage-and-prioritization-checklist-template-for-jira-support-teams",
+      "title": "Ticket Triage and Prioritization: Checklist Template for Jira Support Teams"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-resellers",
+      "title": "Top 10 Jira Resellers in 2026"
+    },
+    {
+      "url": "https://titanapps.io/blog/user-story-template-jira",
+      "title": "User Story Template Tips: Quick Guide to Jira Optimization"
+    },
+    {
+      "url": "https://titanapps.io/blog/website-optimization-checklist",
+      "title": "Website Optimization Checklist for 2026: The Complete Framework"
+    },
+    {
+      "url": "https://titanapps.io/blog/what-is-jira-product-discovery",
+      "title": "What is Jira Product Discovery? A Product Manager’s Guide to Using JPD"
+    },
+    {
+      "url": "https://titanapps.io/blog/marketing-feature-release-template",
+      "title": "Why You Need a Marketing Feature Release Template"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-mcp-server",
+      "title": "Your Practical Guide to Jira MCP Server: Setup Instructions, Example Prompts and Workflows"
+    },
+    {
+      "url": "https://titanapps.io/blog/jira-subtask-of-subtask",
+      "title": "“Subtask of a Subtask” in Jira: How to Add Child Items to a Subtask"
+    }
+  ],
+  "template_count": 78,
+  "team_count": 12,
+  "description": "Reusable Markdown checklist templates for creating checklists compatible with the Smart Checklist app for Jira. Formatting guidance targets Jira Cloud."
+}

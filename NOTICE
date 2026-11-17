@@ -1,0 +1,11 @@
+The checklist collection includes adaptations from TitanApps blog articles
+and original contributions and replacement versions supplied by the repository
+owner. Historical source titles and URLs and contribution details are retained
+in catalog.json; SOURCES.md lists the articles. Formatting guidance is based on
+the linked Smart Checklist Cloud documentation, supplemented by original
+repository conventions and examples.
+
+The MIT license covers the repository contents. It does not relicense the
+external source websites or the Smart Checklist application. Jira and Atlassian
+are trademarks of Atlassian. Smart Checklist and TitanApps names remain with
+their respective owners.

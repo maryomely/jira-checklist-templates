@@ -1,0 +1,7 @@
+- Classify the request type (bug, outage, question, feature request, password reset).
+- Search for duplicates and known issues; link a knowledge base article if it solves the case.
+- Assess urgency and impact (users affected, downtime risk) to set ticket priority.
+- Apply the correct SLA target; confirm it matches your service level agreements.
+- Route to the right team; escalate when the issue blocks customers or impacts SLAs.
+- Add internal notes with first troubleshooting steps or context for the next responder.
+- Flag for follow-up if more info or logs are needed.

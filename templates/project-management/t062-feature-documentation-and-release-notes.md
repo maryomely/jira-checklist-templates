@@ -1,0 +1,5 @@
+- Draft release notes covering new features and bug fixes
+- Update Confluence docs with changes
+- Inform support and success teams
+- Notify marketing for go-to-market content
+- Tag the release on the release hub or roadmap dashboard

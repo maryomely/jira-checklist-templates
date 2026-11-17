@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write Markdown Checklists"
+  short_description: "Write Markdown checklists for the Smart Checklist app for Jira"
+  default_prompt: "Use $write-jira-checklist to create a checklist in Markdown format compatible with the Smart Checklist app for Jira. Adapt a relevant template to my process and ask for missing details when needed."

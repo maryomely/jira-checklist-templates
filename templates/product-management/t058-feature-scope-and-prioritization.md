@@ -1,0 +1,6 @@
+- Confirm business requirements with stakeholders
+- Review or draft PRD in Confluence
+- Define user stories with acceptance criteria
+- Prioritize feature based on value and effort
+- Create/update backlog with relevant Jira work items
+- Set Fix Versions and target release date
