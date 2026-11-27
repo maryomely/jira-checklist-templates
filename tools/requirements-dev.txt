@@ -1,2 +1,2 @@
 # Repository schema validation only; the portable skill and search need no packages.
-jsonschema==4.25.1
+jsonschema==4.26.0
