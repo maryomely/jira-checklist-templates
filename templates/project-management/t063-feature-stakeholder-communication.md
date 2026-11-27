@@ -1,0 +1,5 @@
+- Share release timeline with all involved teams
+- Schedule stakeholder meetings or demos
+- Send milestone updates via Jira notifications or Slack
+- Review risks, blockers, and dependency resolutions
+- Coordinate with product managers on final approval

@@ -1,0 +1,13 @@
+# Baseline accessibility checklist
+- List the pages and flows to check, including at least one form
+- Agree on the target conformance level with the team, usually WCAG 2.2 level AA
+- Run an automated scanner, such as axe DevTools, and remove the false positives from the results
+- Complete each listed flow with the keyboard alone, without touching the mouse
+- Confirm an outline or highlight always shows which element has focus
+- Check that the headings on the page go in order, with no level skipped
+- Read the alt text of every informative image and confirm it says what the image shows or does
+- Find every place where color carries meaning and confirm that a label, an icon, or text repeats it
+- Measure text contrast with the scanner and confirm it reaches 4.5:1, or 3:1 for large text
+- Confirm every form field has a visible label that stays on screen once the field is filled in
+- Submit a form with an empty required field and confirm the message names the field and says how to fix it
+- Record each issue with the page, the failing element, and the success criterion it breaks

@@ -1,0 +1,6 @@
+- Confirm deployment slot with DevOps
+- Verify production readiness
+- Deploy feature to live environment
+- Monitor logs and performance
+- Update the release dashboard with live status
+- Gather feedback for retrospective

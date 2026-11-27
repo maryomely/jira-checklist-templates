@@ -1,0 +1,6 @@
+- Review PRD and confirm feasibility
+- Break down user stories into technical tasks
+- Add story points to each task
+- Define database, API, and UI changes
+- Assign developers
+- Link related issues across projects using JQL

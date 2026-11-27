@@ -1,0 +1,11 @@
+# 🚨 Incident Management
+-! Incident is **acknowledged** and assigned to @Incident_Manager
+-! Impact and affected services are identified
+-! Severity is confirmed – `SEV-1 / SEV-2 / SEV-3`
+- Logs, alerts, and recent changes are reviewed
+-! Workaround or mitigation is applied _(if available)_
+- Incident updates are recorded in [📋 Incident Log](incident_log_url)
+-! Service is **restored and verified** ✅
+- Affected users and @Support_Team are notified
+- Follow-up actions are created _(if required)_
+-! Incident is documented and **ready for closure**

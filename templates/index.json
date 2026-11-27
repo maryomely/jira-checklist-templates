@@ -1,0 +1,1152 @@
+[
+  {
+    "id": "T001",
+    "title": "Annual marketing budget planning and approval",
+    "team": "Finance",
+    "tags": [
+      "annual",
+      "approval",
+      "budget",
+      "marketing",
+      "payments",
+      "planning",
+      "spending"
+    ],
+    "summary": "Plan annual marketing spend from actuals through allocation, approval, and finance handover.",
+    "path": "templates/finance/t001-annual-marketing-budget-planning-and-approval.md"
+  },
+  {
+    "id": "T002",
+    "title": "Budget retrospective",
+    "team": "Finance",
+    "tags": [
+      "budget",
+      "payments",
+      "retrospective",
+      "spending"
+    ],
+    "summary": "Review budget outcomes and turn spending lessons into the next planning cycle.",
+    "path": "templates/finance/t002-budget-retrospective.md"
+  },
+  {
+    "id": "T003",
+    "title": "Business travel preparation",
+    "team": "Finance",
+    "tags": [
+      "budget",
+      "business",
+      "coordination",
+      "payments",
+      "planning",
+      "spending",
+      "travel"
+    ],
+    "summary": "Confirm trip details and budget, arrange bookings, and complete post-travel expenses and reporting.",
+    "path": "templates/finance/t003-business-travel-planning-and-coordination.md"
+  },
+  {
+    "id": "T004",
+    "title": "Invoice approval",
+    "team": "Finance",
+    "tags": [
+      "approval",
+      "budget",
+      "invoice",
+      "payments",
+      "spending"
+    ],
+    "summary": "Check invoice accuracy, duplicates, tax information, approvals, and payment readiness.",
+    "path": "templates/finance/t004-invoice-approval.md"
+  },
+  {
+    "id": "T005",
+    "title": "Monthly budget check",
+    "team": "Finance",
+    "tags": [
+      "budget",
+      "check",
+      "monthly",
+      "payments",
+      "spending"
+    ],
+    "summary": "Compare monthly spending with the budget and decide corrective actions.",
+    "path": "templates/finance/t005-monthly-budget-check.md"
+  },
+  {
+    "id": "T006",
+    "title": "Payroll processing",
+    "team": "Finance",
+    "tags": [
+      "budget",
+      "payments",
+      "payroll",
+      "processing",
+      "spending"
+    ],
+    "summary": "Validate payroll inputs, calculate compensation, obtain approval, and reconcile payments.",
+    "path": "templates/finance/t006-payroll-processing.md"
+  },
+  {
+    "id": "T007",
+    "title": "Employee evaluation",
+    "team": "HR and Recruiting",
+    "tags": [
+      "employee",
+      "evaluation",
+      "hiring",
+      "hr",
+      "people-operations"
+    ],
+    "summary": "Assess role skills, productivity, and competencies with structured written feedback.",
+    "path": "templates/hr-and-recruiting/t007-employee-evaluation.md"
+  },
+  {
+    "id": "T008",
+    "title": "Employee onboarding",
+    "team": "HR and Recruiting",
+    "tags": [
+      "employee",
+      "finance",
+      "first",
+      "hardware",
+      "hiring",
+      "hr",
+      "it",
+      "legal",
+      "month",
+      "onboarding",
+      "paperwork",
+      "people-operations",
+      "project",
+      "security",
+      "setup"
+    ],
+    "summary": "Coordinate legal, finance, hardware, security, HR, and project onboarding, including 30-day goals.",
+    "path": "templates/hr-and-recruiting/t008-employee-onboarding-through-the-first-month.md",
+    "superseded_ids": [
+      "T010",
+      "T022"
+    ]
+  },
+  {
+    "id": "T009",
+    "title": "New hire buddy support",
+    "team": "HR and Recruiting",
+    "tags": [
+      "buddy",
+      "hire",
+      "hiring",
+      "hr",
+      "new",
+      "people-operations",
+      "support"
+    ],
+    "summary": "Guide the buddy's introductions, onboarding support, and regular check-ins.",
+    "path": "templates/hr-and-recruiting/t009-new-hire-buddy-support.md"
+  },
+  {
+    "id": "T011",
+    "title": "Offboarding launch",
+    "team": "HR and Recruiting",
+    "tags": [
+      "hiring",
+      "hr",
+      "launch",
+      "offboarding",
+      "people-operations"
+    ],
+    "summary": "Confirm the offboarding owner, departure timing, and initial employee information.",
+    "path": "templates/hr-and-recruiting/t011-offboarding-launch.md"
+  },
+  {
+    "id": "T012",
+    "title": "Performance review cycle",
+    "team": "HR and Recruiting",
+    "tags": [
+      "cycle",
+      "hiring",
+      "hr",
+      "people-operations",
+      "performance",
+      "review"
+    ],
+    "summary": "Run a performance review cycle from setup through calibration, release, and discussion.",
+    "path": "templates/hr-and-recruiting/t012-performance-review-cycle.md"
+  },
+  {
+    "id": "T013",
+    "title": "Recruitment planning and candidate screening",
+    "team": "HR and Recruiting",
+    "tags": [
+      "candidate",
+      "hiring",
+      "hr",
+      "people-operations",
+      "planning",
+      "recruitment",
+      "screening"
+    ],
+    "summary": "Plan recruitment, define a role, coordinate hiring stages, and screen candidates.",
+    "path": "templates/hr-and-recruiting/t013-recruitment-planning-and-candidate-screening.md"
+  },
+  {
+    "id": "T014",
+    "title": "Code formatting and review",
+    "team": "IT and Engineering",
+    "tags": [
+      "code",
+      "development",
+      "engineering",
+      "formatting",
+      "review",
+      "software"
+    ],
+    "summary": "Review code structure, conventions, maintainability, security, and performance.",
+    "path": "templates/it-and-engineering/t014-code-formatting-and-review.md"
+  },
+  {
+    "id": "T015",
+    "title": "Code review",
+    "team": "IT and Engineering",
+    "tags": [
+      "code",
+      "development",
+      "engineering",
+      "review",
+      "software"
+    ],
+    "summary": "Review implementation, readability, maintainability, security, tests, documentation, and deployment risks.",
+    "path": "templates/it-and-engineering/t015-code-review.md"
+  },
+  {
+    "id": "T016",
+    "title": "Dark mode implementation example",
+    "team": "IT and Engineering",
+    "tags": [
+      "dark",
+      "development",
+      "engineering",
+      "example",
+      "implementation",
+      "mode",
+      "software"
+    ],
+    "summary": "Illustrate a feature delivery workflow using dark mode from design through monitoring.",
+    "path": "templates/it-and-engineering/t016-dark-mode-implementation-example.md"
+  },
+  {
+    "id": "T017",
+    "title": "Definition of Done",
+    "team": "IT and Engineering",
+    "tags": [
+      "definition",
+      "development",
+      "done",
+      "engineering",
+      "software"
+    ],
+    "summary": "Verify implementation, test coverage, QA, review, feature flags, documentation, and final sign-off.",
+    "path": "templates/it-and-engineering/t017-definition-of-done.md"
+  },
+  {
+    "id": "T018",
+    "title": "Developer technical onboarding through the first month",
+    "team": "IT and Engineering",
+    "tags": [
+      "developer",
+      "development",
+      "engineering",
+      "first",
+      "month",
+      "onboarding",
+      "software",
+      "technical"
+    ],
+    "summary": "Guide a developer's technical setup, working agreements, first week, and first month.",
+    "path": "templates/it-and-engineering/t018-developer-technical-onboarding-through-the-first-month.md"
+  },
+  {
+    "id": "T019",
+    "title": "Feature deployment and monitoring",
+    "team": "IT and Engineering",
+    "tags": [
+      "deployment",
+      "development",
+      "engineering",
+      "feature",
+      "monitoring",
+      "software"
+    ],
+    "summary": "Check production readiness, deploy a feature, and monitor the live result.",
+    "path": "templates/it-and-engineering/t019-feature-deployment-and-monitoring.md"
+  },
+  {
+    "id": "T020",
+    "title": "Feature technical implementation",
+    "team": "IT and Engineering",
+    "tags": [
+      "development",
+      "engineering",
+      "feature",
+      "implementation",
+      "software",
+      "technical"
+    ],
+    "summary": "Translate a feature specification into technical tasks, APIs, data changes, and owners.",
+    "path": "templates/it-and-engineering/t020-feature-technical-implementation.md"
+  },
+  {
+    "id": "T021",
+    "title": "Jira Server to Cloud premigration",
+    "team": "IT and Engineering",
+    "tags": [
+      "cloud",
+      "development",
+      "engineering",
+      "jira",
+      "premigration",
+      "server",
+      "software"
+    ],
+    "summary": "Review legacy Jira Server-to-Cloud migration prerequisites and preparation steps.",
+    "path": "templates/it-and-engineering/t021-jira-server-to-cloud-premigration.md"
+  },
+  {
+    "id": "T023",
+    "title": "Release deployment workflow",
+    "team": "IT and Engineering",
+    "tags": [
+      "deployment",
+      "development",
+      "engineering",
+      "release",
+      "software",
+      "workflow"
+    ],
+    "summary": "Coordinate staging, regression testing, production deployment, and post-release actions.",
+    "path": "templates/it-and-engineering/t023-release-deployment-workflow.md"
+  },
+  {
+    "id": "T024",
+    "title": "Release readiness and approval",
+    "team": "IT and Engineering",
+    "tags": [
+      "approval",
+      "development",
+      "engineering",
+      "readiness",
+      "release",
+      "software"
+    ],
+    "summary": "Check code quality, QA sign-off, deployment preparation, production approval, and post-deployment smoke tests.",
+    "path": "templates/it-and-engineering/t024-release-readiness-and-approval.md"
+  },
+  {
+    "id": "T025",
+    "title": "Software licensing management",
+    "team": "IT and Engineering",
+    "tags": [
+      "development",
+      "engineering",
+      "licensing",
+      "management",
+      "software"
+    ],
+    "summary": "Inventory software, assign owners, manage access, and review license renewals and usage.",
+    "path": "templates/it-and-engineering/t025-software-licensing-management.md"
+  },
+  {
+    "id": "T082",
+    "title": "Get Started with Smart Checklist",
+    "team": "IT and Engineering",
+    "tags": [
+      "app",
+      "automation",
+      "formatting",
+      "get-started",
+      "setup",
+      "smart-checklist",
+      "templates",
+      "tutorial"
+    ],
+    "summary": "Learn Smart Checklist editing, formatting, templates, automation, configuration, and support.",
+    "path": "templates/it-and-engineering/t082-get-started-with-smart-checklist.md"
+  },
+  {
+    "id": "T026",
+    "title": "GDPR compliance and data deletion",
+    "team": "Information Security",
+    "tags": [
+      "audit",
+      "compliance",
+      "controls",
+      "data",
+      "deletion",
+      "gdpr",
+      "security"
+    ],
+    "summary": "Organize privacy-control reviews, personal-data handling, and data-subject request processes.",
+    "path": "templates/information-security/t026-gdpr-compliance-and-data-deletion.md"
+  },
+  {
+    "id": "T027",
+    "title": "Incident readiness",
+    "team": "Information Security",
+    "tags": [
+      "audit",
+      "controls",
+      "incident",
+      "readiness",
+      "security"
+    ],
+    "summary": "Prepare incident policies, roles, escalation paths, communications, and response exercises.",
+    "path": "templates/information-security/t027-incident-readiness.md"
+  },
+  {
+    "id": "T028",
+    "title": "Incident management",
+    "team": "Information Security",
+    "tags": [
+      "audit",
+      "closure",
+      "controls",
+      "incident",
+      "management",
+      "mitigation",
+      "outage",
+      "recovery",
+      "response",
+      "security",
+      "service",
+      "severity"
+    ],
+    "summary": "Acknowledge and assess an incident, apply mitigation, verify recovery, notify affected users, and prepare closure.",
+    "path": "templates/information-security/t028-incident-response.md"
+  },
+  {
+    "id": "T029",
+    "title": "Internal control policy verification",
+    "team": "Information Security",
+    "tags": [
+      "audit",
+      "control",
+      "controls",
+      "internal",
+      "policy",
+      "security",
+      "verification"
+    ],
+    "summary": "Verify control policies against current responsibilities, execution, evidence, and exceptions.",
+    "path": "templates/information-security/t029-internal-control-policy-verification.md"
+  },
+  {
+    "id": "T030",
+    "title": "ISO 27001 internal audit",
+    "team": "Information Security",
+    "tags": [
+      "27001",
+      "audit",
+      "controls",
+      "internal",
+      "iso",
+      "security"
+    ],
+    "summary": "Structure an internal ISMS audit across planning, controls, evidence, findings, and follow-up.",
+    "path": "templates/information-security/t030-iso-27001-internal-audit.md"
+  },
+  {
+    "id": "T031",
+    "title": "Policy update and sign-off",
+    "team": "Information Security",
+    "tags": [
+      "audit",
+      "controls",
+      "off",
+      "policy",
+      "security",
+      "sign",
+      "update"
+    ],
+    "summary": "Draft, approve, publish, and follow up on an internal policy change.",
+    "path": "templates/information-security/t031-policy-update-sign-off.md"
+  },
+  {
+    "id": "T032",
+    "title": "Postmortem report and archive",
+    "team": "Information Security",
+    "tags": [
+      "archive",
+      "audit",
+      "controls",
+      "postmortem",
+      "report",
+      "security"
+    ],
+    "summary": "Assemble the incident report, supporting evidence, remediation links, and archive metadata.",
+    "path": "templates/information-security/t032-postmortem-report-and-archive.md"
+  },
+  {
+    "id": "T033",
+    "title": "SOC 2 action plan",
+    "team": "Information Security",
+    "tags": [
+      "action",
+      "audit",
+      "controls",
+      "plan",
+      "security",
+      "soc"
+    ],
+    "summary": "Plan SOC 2 preparation across scope, controls, evidence, training, and ongoing review.",
+    "path": "templates/information-security/t033-soc-2-action-plan.md"
+  },
+  {
+    "id": "T034",
+    "title": "SOC 2 audit preparation",
+    "team": "Information Security",
+    "tags": [
+      "audit",
+      "controls",
+      "preparation",
+      "security",
+      "soc"
+    ],
+    "summary": "Prepare the team, documentation, evidence, and remediation work for a SOC 2 audit.",
+    "path": "templates/information-security/t034-soc-2-audit-preparation.md"
+  },
+  {
+    "id": "T035",
+    "title": "Vendor security compliance",
+    "team": "Information Security",
+    "tags": [
+      "audit",
+      "compliance",
+      "controls",
+      "security",
+      "vendor"
+    ],
+    "summary": "Review a vendor's privacy, security, data handling, and supporting documentation.",
+    "path": "templates/information-security/t035-vendor-security-compliance.md"
+  },
+  {
+    "id": "T036",
+    "title": "Contract review",
+    "team": "Legal",
+    "tags": [
+      "contract",
+      "legal",
+      "review"
+    ],
+    "summary": "Review counterparty details, contract provisions, risks, approval, and storage.",
+    "path": "templates/legal/t036-contract-review.md"
+  },
+  {
+    "id": "T037",
+    "title": "Competitor analysis",
+    "team": "Marketing",
+    "tags": [
+      "analysis",
+      "competitor",
+      "growth",
+      "marketing"
+    ],
+    "summary": "Compare competitors' profiles, features, pricing, channels, reviews, and positioning.",
+    "path": "templates/marketing/t037-competitor-analysis.md"
+  },
+  {
+    "id": "T038",
+    "title": "Content preparation, review, and publishing",
+    "team": "Marketing",
+    "tags": [
+      "content",
+      "growth",
+      "marketing",
+      "preparation",
+      "publishing",
+      "review"
+    ],
+    "summary": "Prepare, review, approve, and publish content with quality and search checks.",
+    "path": "templates/marketing/t038-content-preparation-review-and-publishing.md"
+  },
+  {
+    "id": "T039",
+    "title": "Email campaign planning and delivery",
+    "team": "Marketing",
+    "tags": [
+      "campaign",
+      "delivery",
+      "email",
+      "growth",
+      "marketing",
+      "planning"
+    ],
+    "summary": "Plan an email campaign, prepare assets, test delivery, and schedule the send.",
+    "path": "templates/marketing/t039-email-campaign-planning-and-delivery.md"
+  },
+  {
+    "id": "T040",
+    "title": "Event planning and delivery",
+    "team": "Marketing",
+    "tags": [
+      "delivery",
+      "event",
+      "growth",
+      "marketing",
+      "planning"
+    ],
+    "summary": "Plan an event from logistics and promotion through delivery, follow-up, and retrospective.",
+    "path": "templates/marketing/t040-event-planning-and-delivery.md"
+  },
+  {
+    "id": "T041",
+    "title": "Feature release marketing",
+    "team": "Marketing",
+    "tags": [
+      "feature",
+      "growth",
+      "marketing",
+      "release"
+    ],
+    "summary": "Prepare release messaging and assets, coordinate launch channels, and review post-launch performance.",
+    "path": "templates/marketing/t041-feature-release-marketing.md"
+  },
+  {
+    "id": "T042",
+    "title": "Go-to-market planning",
+    "team": "Marketing",
+    "tags": [
+      "growth",
+      "market",
+      "marketing",
+      "planning"
+    ],
+    "summary": "Plan target markets, positioning, pricing, channels, launch assets, and measurement.",
+    "path": "templates/marketing/t042-go-to-market-planning.md"
+  },
+  {
+    "id": "T043",
+    "title": "Marketing campaign planning and delivery",
+    "team": "Marketing",
+    "tags": [
+      "campaign",
+      "delivery",
+      "growth",
+      "marketing",
+      "planning"
+    ],
+    "summary": "Coordinate campaign goals, budget, timeline, assets, prelaunch checks, delivery, and results.",
+    "path": "templates/marketing/t043-marketing-campaign-planning-and-delivery.md"
+  },
+  {
+    "id": "T044",
+    "title": "Marketing onboarding",
+    "team": "Marketing",
+    "tags": [
+      "growth",
+      "marketing",
+      "onboarding"
+    ],
+    "summary": "Set up a marketer's tools and introduce the team's content and brand resources.",
+    "path": "templates/marketing/t044-marketing-onboarding.md"
+  },
+  {
+    "id": "T045",
+    "title": "Marketing report",
+    "team": "Marketing",
+    "tags": [
+      "growth",
+      "marketing",
+      "report"
+    ],
+    "summary": "Compile marketing data, evaluate channels and spending, and share actionable findings.",
+    "path": "templates/marketing/t045-marketing-report.md"
+  },
+  {
+    "id": "T046",
+    "title": "Paid ads launch",
+    "team": "Marketing",
+    "tags": [
+      "ads",
+      "growth",
+      "launch",
+      "marketing",
+      "paid"
+    ],
+    "summary": "Prepare paid-ad targeting, creative, platform configuration, launch checks, and monitoring.",
+    "path": "templates/marketing/t046-paid-ads-launch.md"
+  },
+  {
+    "id": "T047",
+    "title": "SEO audit and optimization",
+    "team": "Marketing",
+    "tags": [
+      "audit",
+      "growth",
+      "marketing",
+      "optimization",
+      "seo"
+    ],
+    "summary": "Audit tracking, technical SEO, keywords, on-page content, and user experience.",
+    "path": "templates/marketing/t047-seo-audit-and-optimization.md"
+  },
+  {
+    "id": "T048",
+    "title": "Target audience research",
+    "team": "Marketing",
+    "tags": [
+      "audience",
+      "growth",
+      "marketing",
+      "research",
+      "target"
+    ],
+    "summary": "Research customer segments, buying committees, channels, and messages for each audience.",
+    "path": "templates/marketing/t048-target-audience-research.md"
+  },
+  {
+    "id": "T049",
+    "title": "Webinar planning and delivery",
+    "team": "Marketing",
+    "tags": [
+      "delivery",
+      "growth",
+      "marketing",
+      "planning",
+      "webinar"
+    ],
+    "summary": "Coordinate webinar preparation, promotion, rehearsal, live delivery, and follow-up.",
+    "path": "templates/marketing/t049-webinar-planning-and-delivery.md"
+  },
+  {
+    "id": "T050",
+    "title": "Website optimization",
+    "team": "Marketing",
+    "tags": [
+      "growth",
+      "marketing",
+      "optimization",
+      "website"
+    ],
+    "summary": "Review website technical health, content, AI discoverability, and conversion experience.",
+    "path": "templates/marketing/t050-website-optimization.md"
+  },
+  {
+    "id": "T051",
+    "title": "Existing SaaS subscription",
+    "team": "Procurement",
+    "tags": [
+      "existing",
+      "procurement",
+      "purchasing",
+      "saas",
+      "subscription",
+      "vendor"
+    ],
+    "summary": "Handle changes to an existing SaaS subscription, billing information, and approvals.",
+    "path": "templates/procurement/t051-existing-saas-subscription.md"
+  },
+  {
+    "id": "T052",
+    "title": "New SaaS request",
+    "team": "Procurement",
+    "tags": [
+      "new",
+      "procurement",
+      "purchasing",
+      "request",
+      "saas",
+      "vendor"
+    ],
+    "summary": "Process a new SaaS request with security review, purchase details, and budget approval.",
+    "path": "templates/procurement/t052-new-saas-request.md"
+  },
+  {
+    "id": "T053",
+    "title": "Procurement request",
+    "team": "Procurement",
+    "tags": [
+      "procurement",
+      "purchasing",
+      "request",
+      "vendor"
+    ],
+    "summary": "Collect purchase requirements, obtain approvals, and confirm delivery expectations.",
+    "path": "templates/procurement/t053-procurement-request.md"
+  },
+  {
+    "id": "T054",
+    "title": "Vendor evaluation and due diligence",
+    "team": "Procurement",
+    "tags": [
+      "diligence",
+      "due",
+      "evaluation",
+      "procurement",
+      "purchasing",
+      "vendor"
+    ],
+    "summary": "Evaluate vendor fit, pricing, legal terms, security, reputation, and ongoing performance.",
+    "path": "templates/procurement/t054-vendor-evaluation-and-due-diligence.md"
+  },
+  {
+    "id": "T055",
+    "title": "Vendor partnership evaluation",
+    "team": "Procurement",
+    "tags": [
+      "evaluation",
+      "partnership",
+      "procurement",
+      "purchasing",
+      "vendor"
+    ],
+    "summary": "Evaluate collaboration opportunities, competitive bids, and partnership value.",
+    "path": "templates/procurement/t055-vendor-partnership-evaluation.md"
+  },
+  {
+    "id": "T056",
+    "title": "Vendor pricing and negotiation",
+    "team": "Procurement",
+    "tags": [
+      "negotiation",
+      "pricing",
+      "procurement",
+      "purchasing",
+      "vendor"
+    ],
+    "summary": "Prepare vendor pricing discussions, negotiation points, and a draft agreement.",
+    "path": "templates/procurement/t056-vendor-pricing-and-negotiation.md"
+  },
+  {
+    "id": "T057",
+    "title": "Definition of Ready",
+    "team": "Product Management",
+    "tags": [
+      "definition",
+      "discovery",
+      "product",
+      "ready",
+      "requirements"
+    ],
+    "summary": "Confirm testable acceptance criteria, agreed scope, designs, dependencies, technical approach, and no blocking questions.",
+    "path": "templates/product-management/t057-definition-of-ready.md"
+  },
+  {
+    "id": "T058",
+    "title": "Feature scope and prioritization",
+    "team": "Product Management",
+    "tags": [
+      "discovery",
+      "feature",
+      "prioritization",
+      "product",
+      "requirements",
+      "scope"
+    ],
+    "summary": "Clarify a feature's purpose, scope, priorities, and readiness for technical delivery.",
+    "path": "templates/product-management/t058-feature-scope-and-prioritization.md"
+  },
+  {
+    "id": "T059",
+    "title": "Product discovery",
+    "team": "Product Management",
+    "tags": [
+      "discovery",
+      "product",
+      "requirements"
+    ],
+    "summary": "Investigate a product problem, users, assumptions, solution options, and validation evidence.",
+    "path": "templates/product-management/t059-product-discovery.md"
+  },
+  {
+    "id": "T060",
+    "title": "Annual stakeholder report",
+    "team": "Project Management",
+    "tags": [
+      "annual",
+      "delivery",
+      "planning",
+      "project",
+      "report",
+      "stakeholder"
+    ],
+    "summary": "Collect annual business results, strategic insights, supporting evidence, and stakeholder feedback.",
+    "path": "templates/project-management/t060-annual-stakeholder-report.md"
+  },
+  {
+    "id": "T061",
+    "title": "Client onboarding",
+    "team": "Project Management",
+    "tags": [
+      "client",
+      "delivery",
+      "onboarding",
+      "planning",
+      "project"
+    ],
+    "summary": "Coordinate client kickoff, communication, requirements, tools, planning, and onboarding review.",
+    "path": "templates/project-management/t061-client-onboarding.md"
+  },
+  {
+    "id": "T062",
+    "title": "Feature documentation and release notes",
+    "team": "Project Management",
+    "tags": [
+      "delivery",
+      "documentation",
+      "feature",
+      "notes",
+      "planning",
+      "project",
+      "release"
+    ],
+    "summary": "Prepare release notes and communicate documentation changes to affected teams.",
+    "path": "templates/project-management/t062-feature-documentation-and-release-notes.md"
+  },
+  {
+    "id": "T063",
+    "title": "Feature stakeholder communication",
+    "team": "Project Management",
+    "tags": [
+      "communication",
+      "delivery",
+      "feature",
+      "planning",
+      "project",
+      "stakeholder"
+    ],
+    "summary": "Coordinate feature announcements, demos, and stakeholder communication.",
+    "path": "templates/project-management/t063-feature-stakeholder-communication.md"
+  },
+  {
+    "id": "T064",
+    "title": "Objectives and key results",
+    "team": "Project Management",
+    "tags": [
+      "delivery",
+      "key",
+      "objectives",
+      "planning",
+      "project",
+      "results"
+    ],
+    "summary": "Define objectives and measurable key results, assign owners, and review progress.",
+    "path": "templates/project-management/t064-objectives-and-key-results.md"
+  },
+  {
+    "id": "T065",
+    "title": "Project kickoff",
+    "team": "Project Management",
+    "tags": [
+      "delivery",
+      "kickoff",
+      "planning",
+      "project"
+    ],
+    "summary": "Prepare project scope, knowledge sharing, Jira setup, tools, and team activities.",
+    "path": "templates/project-management/t065-project-kickoff.md"
+  },
+  {
+    "id": "T066",
+    "title": "Sprint planning",
+    "team": "Project Management",
+    "tags": [
+      "delivery",
+      "planning",
+      "project",
+      "sprint"
+    ],
+    "summary": "Prepare sprint scope, story readiness, team capacity, logistics, and start conditions.",
+    "path": "templates/project-management/t066-sprint-planning.md"
+  },
+  {
+    "id": "T067",
+    "title": "API testing",
+    "team": "Quality Assurance",
+    "tags": [
+      "api",
+      "qa",
+      "quality",
+      "testing"
+    ],
+    "summary": "Verify API contracts, requests, error handling, authorization, reliability, and reporting.",
+    "path": "templates/quality-assurance/t067-api-testing.md"
+  },
+  {
+    "id": "T070",
+    "title": "Bug reporting, investigation, and fix validation",
+    "team": "Quality Assurance",
+    "tags": [
+      "bug",
+      "completeness",
+      "fix",
+      "investigation",
+      "qa",
+      "quality",
+      "report",
+      "testing",
+      "validation",
+      "verification"
+    ],
+    "summary": "Create a complete bug report, investigate and prioritize it, then validate the fix and regression coverage.",
+    "path": "templates/quality-assurance/t070-bug-report-completeness.md",
+    "superseded_ids": [
+      "T068",
+      "T069"
+    ]
+  },
+  {
+    "id": "T071",
+    "title": "QA testing",
+    "team": "Quality Assurance",
+    "tags": [
+      "feature",
+      "qa",
+      "quality",
+      "testing"
+    ],
+    "summary": "Complete functional and regression testing, applicable specialist checks, defect triage, evidence, and QA sign-off.",
+    "path": "templates/quality-assurance/t071-feature-qa-and-testing.md"
+  },
+  {
+    "id": "T072",
+    "title": "Performance testing",
+    "team": "Quality Assurance",
+    "tags": [
+      "performance",
+      "qa",
+      "quality",
+      "testing"
+    ],
+    "summary": "Plan load scenarios, establish thresholds, run performance tests, and report findings.",
+    "path": "templates/quality-assurance/t072-performance-testing.md"
+  },
+  {
+    "id": "T073",
+    "title": "General regression testing",
+    "team": "Quality Assurance",
+    "tags": [
+      "checklist",
+      "general",
+      "qa",
+      "quality",
+      "regression",
+      "testing"
+    ],
+    "summary": "Run general regression coverage across UI, functionality, integrations, performance, and security.",
+    "path": "templates/quality-assurance/t073-regression-testing-general-checklist.md"
+  },
+  {
+    "id": "T074",
+    "title": "Security testing",
+    "team": "Quality Assurance",
+    "tags": [
+      "qa",
+      "quality",
+      "security",
+      "testing"
+    ],
+    "summary": "Check application security across authentication, sessions, access control, inputs, and data.",
+    "path": "templates/quality-assurance/t074-security-testing.md"
+  },
+  {
+    "id": "T075",
+    "title": "Smart Checklist regression testing",
+    "team": "Quality Assurance",
+    "tags": [
+      "checklist",
+      "qa",
+      "quality",
+      "regression",
+      "smart",
+      "testing"
+    ],
+    "summary": "Illustrate Smart Checklist product regression scenarios, template behavior, and JQL patterns.",
+    "path": "templates/quality-assurance/t075-smart-checklist-regression-testing.md"
+  },
+  {
+    "id": "T076",
+    "title": "Test execution",
+    "team": "Quality Assurance",
+    "tags": [
+      "execution",
+      "qa",
+      "quality",
+      "test",
+      "testing"
+    ],
+    "summary": "Prepare a test run, execute cases, record defects, and hand over the results.",
+    "path": "templates/quality-assurance/t076-test-execution.md"
+  },
+  {
+    "id": "T077",
+    "title": "Test plan entry and exit criteria",
+    "team": "Quality Assurance",
+    "tags": [
+      "criteria",
+      "entry",
+      "exit",
+      "plan",
+      "qa",
+      "quality",
+      "test",
+      "testing"
+    ],
+    "summary": "Define the environment, evidence, and quality conditions for starting and finishing testing.",
+    "path": "templates/quality-assurance/t077-test-plan-entry-and-exit-criteria.md"
+  },
+  {
+    "id": "T078",
+    "title": "Usability and accessibility testing",
+    "team": "Quality Assurance",
+    "tags": [
+      "accessibility",
+      "qa",
+      "quality",
+      "testing",
+      "usability"
+    ],
+    "summary": "Check accessible interactions, content, navigation, contrast, and form usability.",
+    "path": "templates/quality-assurance/t078-usability-and-accessibility-testing.md"
+  },
+  {
+    "id": "T079",
+    "title": "Sales onboarding",
+    "team": "Sales",
+    "tags": [
+      "enablement",
+      "onboarding",
+      "sales"
+    ],
+    "summary": "Set up sales tools and introduce the team's product and sales processes.",
+    "path": "templates/sales/t079-sales-onboarding.md"
+  },
+  {
+    "id": "T080",
+    "title": "Service request fulfillment",
+    "team": "Support",
+    "tags": [
+      "fulfillment",
+      "jsm",
+      "request",
+      "service",
+      "service-desk",
+      "support"
+    ],
+    "summary": "Fulfill an internal service request with identity, provisioning, and closure gates.",
+    "path": "templates/support/t080-service-request-fulfillment.md"
+  },
+  {
+    "id": "T081",
+    "title": "Support ticket triage",
+    "team": "Support",
+    "tags": [
+      "jsm",
+      "service-desk",
+      "support",
+      "ticket",
+      "triage"
+    ],
+    "summary": "Triage support requests, assess impact, route ownership, and record next steps.",
+    "path": "templates/support/t081-support-ticket-triage.md"
+  }
+]

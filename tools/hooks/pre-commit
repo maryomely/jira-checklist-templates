@@ -1,0 +1,5 @@
+#!/bin/sh
+# Optional: git config core.hooksPath tools/hooks
+# Override CHECKLIST_PYTHON when your interpreter is not named python3.
+set -eu
+"${CHECKLIST_PYTHON:-python3}" tools/precommit.py

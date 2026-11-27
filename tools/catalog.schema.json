@@ -1,0 +1,252 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/maryomely/jira-checklist-templates/raw/main/tools/catalog.schema.json",
+  "title": "Smart Checklist template catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "format",
+    "reviewed_on",
+    "repository_url",
+    "templates",
+    "sources",
+    "template_count",
+    "team_count",
+    "description"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schema_version": {
+      "const": 1
+    },
+    "format": {
+      "const": "smart-checklist-cloud-markdown"
+    },
+    "reviewed_on": {
+      "type": "string",
+      "format": "date"
+    },
+    "repository_url": {
+      "type": "string",
+      "pattern": "^https://[^\\s]+$",
+      "format": "uri"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "templates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "title",
+          "team",
+          "summary",
+          "tags",
+          "kind",
+          "path",
+          "source_urls",
+          "notes",
+          "placeholders",
+          "item_count",
+          "sha256"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^T[0-9]{3,}$"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "team": {
+            "type": "string",
+            "minLength": 1
+          },
+          "summary": {
+            "type": "string",
+            "minLength": 1
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true,
+            "minItems": 1
+          },
+          "kind": {
+            "enum": [
+              "criteria",
+              "feature-example",
+              "historical-migration-example",
+              "product-regression-example",
+              "tutorial",
+              "workflow"
+            ]
+          },
+          "path": {
+            "type": "string",
+            "pattern": "^templates/[^/\\\\]+/t[0-9]+-[a-z0-9-]+\\.md$"
+          },
+          "source_urls": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^https://[^\\s]+$",
+              "format": "uri"
+            },
+            "uniqueItems": true
+          },
+          "notes": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "placeholders": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)+$"
+            },
+            "uniqueItems": true
+          },
+          "literal_identifiers": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)+$"
+            },
+            "uniqueItems": true
+          },
+          "item_count": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "superseded_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^T[0-9]{3,}$"
+            },
+            "uniqueItems": true
+          },
+          "contribution": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "type",
+              "contributor",
+              "date",
+              "description"
+            ],
+            "properties": {
+              "type": {
+                "enum": [
+                  "original",
+                  "replacement"
+                ]
+              },
+              "contributor": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "description": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "import_validation": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "tested_on",
+              "platform",
+              "app_version",
+              "template_sha256",
+              "result",
+              "evidence"
+            ],
+            "properties": {
+              "tested_on": {
+                "type": "string",
+                "format": "date"
+              },
+              "platform": {
+                "const": "Jira Cloud"
+              },
+              "app_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "template_sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "result": {
+                "enum": [
+                  "passed",
+                  "failed"
+                ]
+              },
+              "evidence": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      },
+      "minItems": 1
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "title",
+          "url"
+        ],
+        "properties": {
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https://[^\\s]+$",
+            "format": "uri"
+          }
+        }
+      }
+    },
+    "template_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "team_count": {
+      "type": "integer",
+      "minimum": 1
+    }
+  }
+}

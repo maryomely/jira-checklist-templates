@@ -1,0 +1,6 @@
+-! Verify the requestor’s identity
+- Check asset availability in the database
+- Contact requestor for confirmation if needed
+- Receive requestor sign-off
+-! Provision access and confirm
+-! Notify requestor and close
